@@ -117,9 +117,10 @@ public class UserControllerTest {
     @Test
     public void testAddUser() {
         System.out.println("addUser");
-        User usr = null;
-        UserController instance = null;
-        boolean expResult = false;
+        User usr = EasyMock.createMock(User.class);
+        UserController instance = new UserController();
+        instance.addUser(usr);
+        boolean expResult = true;
         boolean result = instance.addUser(usr);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -134,7 +135,10 @@ public class UserControllerTest {
         System.out.println("checkLogin");
         String email = "";
         String pass = "";
-        UserController instance = null;
+        UserController instance = new UserController();
+        User userMock = EasyMock.createMock(User.class);
+        EasyMock.expect(userMock.checkLoginDb(userMock));
+        EasyMock.replay(userMock);
         String expResult = "";
         String result = instance.checkLogin(email, pass);
         assertEquals(expResult, result);
@@ -149,10 +153,12 @@ public class UserControllerTest {
     public void testEditUser() {
         System.out.println("editUser");
         String email = "clara@gmail.com";
-        User user = new User();
-        UserController instance = null;
+        User userMock = EasyMock.createMock(User.class);
+        UserController instance = new UserController();
+//        userMock.setEmail(email);
+//        EasyMock.expect(userMock.getEmail());
         boolean expResult = false;
-        boolean result = instance.editUser(email, user);
+        boolean result = instance.editUser(email, userMock);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
@@ -229,8 +235,8 @@ public class UserControllerTest {
         System.out.println("login");
         String email = "";
         String password = "";
-        UserController instance = null;
-        User expResult = null;
+        UserController instance = new UserController();
+        User expResult = EasyMock.createMock(User.class).readUserOne(email);
         User result = instance.login(email, password);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -243,9 +249,10 @@ public class UserControllerTest {
     @Test
     public void testGetUserByEmail() {
         System.out.println("getUserByEmail");
-        String email = "";
-        UserController instance = null;
-        User expResult = null;
+        String email = "clara@mail.com";
+        UserController instance = new UserController();
+        instance.addUser(new User(email));
+        User expResult = new User(email);
         User result = instance.getUserByEmail(email);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
