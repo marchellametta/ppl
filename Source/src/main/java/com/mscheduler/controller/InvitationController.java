@@ -20,7 +20,7 @@ public class InvitationController extends AbstractController {
     private MeetingController mc;
     
     //singleton + constructor
-        private static InvitationController instance;
+        public static InvitationController instance;
 
         static{
             instance = new InvitationController();
@@ -31,7 +31,7 @@ public class InvitationController extends AbstractController {
             return instance;
         }
         
-         private InvitationController() {
+         public InvitationController() {
             super();
         }
     //end of singleton

@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testEditUser" time="0.343"/>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testGetUserByEmail" time="0.157">
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testEditUser" time="0.344"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testGetUserByEmail" time="0.14">
     <failure message="expected:&lt;com.mscheduler.model.User@7d68ef40&gt; but was:&lt;com.mscheduler.model.User@5b0abc94&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.User@7d68ef40&gt; but was:&lt;com.mscheduler.model.User@5b0abc94&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -107,8 +107,8 @@
     <system-out>getUserByEmail
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLoadUser" time="0">
-    <failure message="expected:&lt;[]&gt; but was:&lt;[com.mscheduler.model.User@2c34f934, com.mscheduler.model.User@12d3a4e9, com.mscheduler.model.User@240237d2, com.mscheduler.model.User@25a65b77, com.mscheduler.model.User@2ed0fbae, com.mscheduler.model.User@212bf671, com.mscheduler.model.User@14a2f921, com.mscheduler.model.User@3c87521, com.mscheduler.model.User@2aece37d, com.mscheduler.model.User@548a102f, com.mscheduler.model.User@5762806e, com.mscheduler.model.User@17c386de, com.mscheduler.model.User@5af97850, com.mscheduler.model.User@5ef60048, com.mscheduler.model.User@1d548a08, com.mscheduler.model.User@16aa0a0a, com.mscheduler.model.User@780cb77, com.mscheduler.model.User@691a7f8f, com.mscheduler.model.User@50a7bc6e, com.mscheduler.model.User@161b062a, com.mscheduler.model.User@17c1bced, com.mscheduler.model.User@2d9d4f9d, com.mscheduler.model.User@4034c28c, com.mscheduler.model.User@e50a6f6]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[]&gt; but was:&lt;[com.mscheduler.model.User@2c34f934, com.mscheduler.model.User@12d3a4e9, com.mscheduler.model.User@240237d2, com.mscheduler.model.User@25a65b77, com.mscheduler.model.User@2ed0fbae, com.mscheduler.model.User@212bf671, com.mscheduler.model.User@14a2f921, com.mscheduler.model.User@3c87521, com.mscheduler.model.User@2aece37d, com.mscheduler.model.User@548a102f, com.mscheduler.model.User@5762806e, com.mscheduler.model.User@17c386de, com.mscheduler.model.User@5af97850, com.mscheduler.model.User@5ef60048, com.mscheduler.model.User@1d548a08, com.mscheduler.model.User@16aa0a0a, com.mscheduler.model.User@780cb77, com.mscheduler.model.User@691a7f8f, com.mscheduler.model.User@50a7bc6e, com.mscheduler.model.User@161b062a, com.mscheduler.model.User@17c1bced, com.mscheduler.model.User@2d9d4f9d, com.mscheduler.model.User@4034c28c, com.mscheduler.model.User@e50a6f6]&gt;
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLoadUser" time="0.016">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[com.mscheduler.model.User@2c34f934, com.mscheduler.model.User@12d3a4e9, com.mscheduler.model.User@240237d2, com.mscheduler.model.User@25a65b77, com.mscheduler.model.User@2ed0fbae, com.mscheduler.model.User@212bf671, com.mscheduler.model.User@14a2f921, com.mscheduler.model.User@3c87521, com.mscheduler.model.User@2aece37d, com.mscheduler.model.User@548a102f, com.mscheduler.model.User@5762806e, com.mscheduler.model.User@17c386de, com.mscheduler.model.User@5af97850, com.mscheduler.model.User@5ef60048, com.mscheduler.model.User@1d548a08, com.mscheduler.model.User@16aa0a0a, com.mscheduler.model.User@780cb77, com.mscheduler.model.User@691a7f8f, com.mscheduler.model.User@50a7bc6e, com.mscheduler.model.User@161b062a, com.mscheduler.model.User@17c1bced, com.mscheduler.model.User@2d9d4f9d, com.mscheduler.model.User@4034c28c, com.mscheduler.model.User@e50a6f6, com.mscheduler.model.User@14ec4505, com.mscheduler.model.User@53ca01a2, com.mscheduler.model.User@358c99f5]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[]&gt; but was:&lt;[com.mscheduler.model.User@2c34f934, com.mscheduler.model.User@12d3a4e9, com.mscheduler.model.User@240237d2, com.mscheduler.model.User@25a65b77, com.mscheduler.model.User@2ed0fbae, com.mscheduler.model.User@212bf671, com.mscheduler.model.User@14a2f921, com.mscheduler.model.User@3c87521, com.mscheduler.model.User@2aece37d, com.mscheduler.model.User@548a102f, com.mscheduler.model.User@5762806e, com.mscheduler.model.User@17c386de, com.mscheduler.model.User@5af97850, com.mscheduler.model.User@5ef60048, com.mscheduler.model.User@1d548a08, com.mscheduler.model.User@16aa0a0a, com.mscheduler.model.User@780cb77, com.mscheduler.model.User@691a7f8f, com.mscheduler.model.User@50a7bc6e, com.mscheduler.model.User@161b062a, com.mscheduler.model.User@17c1bced, com.mscheduler.model.User@2d9d4f9d, com.mscheduler.model.User@4034c28c, com.mscheduler.model.User@e50a6f6, com.mscheduler.model.User@14ec4505, com.mscheduler.model.User@53ca01a2, com.mscheduler.model.User@358c99f5]&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -151,7 +151,7 @@
     <system-out>loadUser
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testAddUser" time="0.015">
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testAddUser" time="0">
     <error message="missing behavior definition for the preceding method call:
 User.saving()
 Usage is: expect(a.foo()).andXXX()" type="java.lang.IllegalStateException">java.lang.IllegalStateException: missing behavior definition for the preceding method call:
@@ -246,8 +246,8 @@ Usage is: expect(a.foo()).andXXX()
     <system-out>checkLogin
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLogin" time="0">
-    <failure message="expected:&lt;null&gt; but was:&lt;com.mscheduler.model.User@143640d5&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;com.mscheduler.model.User@143640d5&gt;
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLogin" time="0.015">
+    <failure message="expected:&lt;com.mscheduler.model.User@657c8ad9&gt; but was:&lt;com.mscheduler.model.User@436a4e4b&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.User@657c8ad9&gt; but was:&lt;com.mscheduler.model.User@436a4e4b&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)

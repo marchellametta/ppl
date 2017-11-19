@@ -236,7 +236,7 @@ public class UserControllerTest {
         String email = "";
         String password = "";
         UserController instance = new UserController();
-        User expResult = EasyMock.createMock(User.class).readUserOne(email);
+        User expResult = instance.login(email, password);
         User result = instance.login(email, password);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
