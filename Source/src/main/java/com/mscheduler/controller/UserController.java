@@ -27,7 +27,7 @@ public class UserController extends AbstractController {
     int maxPage;
 
     //singleton + constructor
-        private static UserController instance;
+        public static UserController instance;
 
         static{
             instance = new UserController();
@@ -37,7 +37,7 @@ public class UserController extends AbstractController {
           return instance;
         }
         
-        private UserController() {
+        public UserController() {
             super();
         }
     //end of singleton
