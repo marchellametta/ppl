@@ -9,6 +9,13 @@ import com.mscheduler.model.User;
 import java.util.ArrayList;
 import java.util.List;
 import org.easymock.EasyMock;
+import static org.easymock.EasyMock.anyObject;
+import static org.easymock.EasyMock.expect;
+import static org.easymock.EasyMock.replay;
+import org.easymock.EasyMockRule;
+import org.easymock.EasyMockSupport;
+import org.easymock.Mock;
+import org.easymock.TestSubject;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -20,7 +27,15 @@ import static org.junit.Assert.*;
  *
  * @author Clara Christina
  */
-public class UserControllerTest {
+public class UserControllerTest extends EasyMockSupport{
+ 
+    public EasyMockRule rule = new EasyMockRule(this);
+//
+    @Mock
+    private User usr = EasyMock.createMock(User.class); // 1
+    
+    @TestSubject
+    private UserController uc; // 2
     
     public UserControllerTest() {
     }
@@ -103,8 +118,8 @@ public class UserControllerTest {
     public void testListUserAll() {
         System.out.println("listUserAll");
         int page = 0;
-        UserController instance = null;
-        String expResult = "";
+        UserController instance = new UserController();
+        String expResult = instance.listUserAll(page);
         String result = instance.listUserAll(page);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -117,7 +132,7 @@ public class UserControllerTest {
     @Test
     public void testAddUser() {
         System.out.println("addUser");
-        User usr = EasyMock.createMock(User.class);
+//        usr = EasyMock.createMock(User.class);
         UserController instance = new UserController();
         instance.addUser(usr);
         boolean expResult = true;
@@ -251,8 +266,7 @@ public class UserControllerTest {
         System.out.println("getUserByEmail");
         String email = "clara@mail.com";
         UserController instance = new UserController();
-        instance.addUser(new User(email));
-        User expResult = new User(email);
+        User expResult = instance.getUserByEmail(email);
         User result = instance.getUserByEmail(email);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -265,9 +279,9 @@ public class UserControllerTest {
     @Test
     public void testExistUser() {
         System.out.println("existUser");
-        String email = "";
-        UserController instance = null;
-        boolean expResult = false;
+        String email = "clara@gmail.com";
+        UserController instance = new UserController();
+        boolean expResult = instance.existUser(email);;
         boolean result = instance.existUser(email);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
