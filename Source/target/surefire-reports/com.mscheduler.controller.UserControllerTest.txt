@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mscheduler.controller.UserControllerTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.62 sec <<< FAILURE!
-testListUserAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.046 sec  <<< ERROR!
+Tests run: 15, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.62 sec
+testListUserAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.046 sec
 java.lang.ArrayIndexOutOfBoundsException: -10
 	at com.mscheduler.Utilities.getPage(Utilities.java:32)
 	at com.mscheduler.controller.UserController.listUserAll(UserController.java:109)

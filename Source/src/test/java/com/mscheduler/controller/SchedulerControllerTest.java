@@ -7,8 +7,11 @@ package com.mscheduler.controller;
 
 import com.mscheduler.model.DateRange;
 import com.mscheduler.model.Meeting;
+import com.mscheduler.model.MeetingStatus;
 import com.mscheduler.model.Schedule;
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
 import org.easymock.EasyMock;
 import static org.easymock.EasyMock.expect;
@@ -58,31 +61,38 @@ public class SchedulerControllerTest {
         List<Schedule> mockSchedule = EasyMock.createMock(List.class);
         
         
-        int durasi;
+        int durasi = 10;
 //        List<Schedule> listSchedule;
         Schedule resultSchedule;
         Meeting m;
         DateRange range;
+        List<String> participants2 = new ArrayList();
+        List<String> important_participants2 = new ArrayList();
         
         //Algoritma
-        m = mc.detailMeeting(meeting_id);
-        m.setProposed_date_range(new DateRange("02-06-2017 - 31-12-2017"));
+//        m = mc.detailMeeting(meeting_id);
+        m = new Meeting(10,"Rapat Mingguan","Membahas apa saja", "9014", 2, new DateRange("02-06-2017 - 31-12-2017"), new Date(),participants2,important_participants2, MeetingStatus.negotiating,
+        new DateRange("02-06-2017 - 31-12-2017"),false);
+        //m.setProposed_date_range(new DateRange("02-06-2017 - 31-12-2017"));
         range = m.getProposed_date_range();
         durasi = m.getDuration();
-        //mockSchedule = instance.generateRange(range,durasi,m);
-        expect(instance.generateRange(range,durasi,m)).andReturn(mockSchedule);
+        mockSchedule = instance.generateRange(range,durasi,m);
+        EasyMock.expect(instance.generateRange(range,durasi,m)).andReturn(mockSchedule);
         
         //mockSchedule = instance.discardConflictedRange(mockSchedule,range);
-        expect(instance.discardConflictedRange(mockSchedule,range)).andReturn(mockSchedule);
+        EasyMock.expect(instance.discardConflictedRange(mockSchedule,range)).andReturn(mockSchedule);
         
         //mockSchedule = instance.intersectWithImportantParticipant(mockSchedule,m);
-        expect(instance.intersectWithImportantParticipant(mockSchedule,m)).andReturn(mockSchedule);
+        EasyMock.expect(instance.intersectWithImportantParticipant(mockSchedule,m)).andReturn(mockSchedule);
         
         if (mockSchedule == null) {
             expResult =  null;
         }
         //mockSchedule = instance.updateAcceptParticipant(mockSchedule,m);
-        expect(instance.updateAcceptParticipant(mockSchedule,m)).andReturn(mockSchedule);
+        EasyMock.expect(instance.updateAcceptParticipant(mockSchedule,m)).andReturn(mockSchedule);
+        EasyMock.expectLastCall().anyTimes();
+        EasyMock.replay(mockSchedule);
+        
         //sort
         Comparator<Schedule> byTotalParticipant = Comparator.comparing(
             x -> x.getTotalParticipant()
