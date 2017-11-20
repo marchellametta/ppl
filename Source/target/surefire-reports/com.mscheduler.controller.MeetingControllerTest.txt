@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.mscheduler.controller.MeetingControllerTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 17, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 1.422 sec <<< FAILURE!
 testEditMeeting(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.047 sec  <<< ERROR!
 java.lang.NullPointerException
@@ -375,3 +376,5 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+=======
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.88 sec
