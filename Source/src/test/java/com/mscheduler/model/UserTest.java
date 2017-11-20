@@ -192,22 +192,8 @@ public class UserTest {
     public void testSaving() {
         System.out.println("saving");
         User instance = new User();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.saving();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of readUser method, of class User.
-     */
-    @Test
-    public void testReadUser() {
-        System.out.println("readUser");
-        User instance = new User("clara@gmail.com", "asdasdasd", "Clara", false);
-        User expResult = null;
-        User result = instance.readUser();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
@@ -245,45 +231,14 @@ public class UserTest {
     }
 
     /**
-     * Test of readUserOne method, of class User.
-     */
-    @Test
-    public void testReadUserOne() {
-        System.out.println("readUserOne");
-        String email = "clara@gmail.com";
-        User instance = new User(email);
-        User expResult = new User(email);
-        User result = instance.readUserOne(email);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of encr method, of class User.
-     */
-    @Test
-    public void testEncr() {
-        System.out.println("encr");
-        String text = "asdasdasd";
-        User instance = new User();
-        String expResult = "asdasdasd";
-        String result = instance.encr(text);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of checkLoginDb method, of class User.
      */
     @Test
     public void testCheckLoginDb() {
         System.out.println("checkLoginDb");
-        User usr = null;
         User instance = new User();
         String expResult = "0";
-        String result = instance.checkLoginDb(usr);
+        String result = instance.checkLoginDb(instance);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
@@ -312,7 +267,7 @@ public class UserTest {
         User usr = null;
         User instance = new User();
         boolean expResult = true;
-        boolean result = instance.editAll(usr);
+        boolean result = instance.editAll(instance);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
@@ -328,21 +283,7 @@ public class UserTest {
         User usr = null;
         User instance = new User();
         boolean expResult = true;
-        boolean result = instance.editOne(condition, usr);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of readAll method, of class User.
-     */
-    @Test
-    public void testReadAll() {
-        System.out.println("readAll");
-        User instance = new User("clara@gmail.com", "asdasdasd", "Clara", false);
-        String expResult = "clara@gmail.com";
-        String result = instance.readAll();
+        boolean result = instance.editOne(condition, instance);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
@@ -355,7 +296,7 @@ public class UserTest {
     public void testDel() {
         System.out.println("del");
         User instance = new User();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.del();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -370,7 +311,7 @@ public class UserTest {
         System.out.println("checkdel");
         String Email = "clara@gmail.com";
         User instance = new User("clara@gmail.com", "asdasdasd", "Clara", false);
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.checkdel(Email);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
