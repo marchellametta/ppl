@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package com.mscheduler.controller;
 
 import com.mscheduler.model.DateRange;
@@ -51,8 +52,8 @@ public class InvitationControllerTest {
         InvitationController expResult = InvitationController.getInstance();
         InvitationController result = InvitationController.getInstance();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+
+        
     }
 
     /**
@@ -65,8 +66,8 @@ public class InvitationControllerTest {
         List<ListInvitationViewModel> expResult = instance.listInvitationView();
         List<ListInvitationViewModel> result = instance.listInvitationView();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+   
+        
     }
 
     /**
@@ -81,8 +82,8 @@ public class InvitationControllerTest {
         List<Invitation> expResult = instance.listInvitation(meeting_id, emailList);
         List<Invitation> result = instance.listInvitation(meeting_id, emailList);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+   
+        
     }
 
     /**
@@ -96,8 +97,8 @@ public class InvitationControllerTest {
         String expResult = null; 
         String result = null;
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        
+        
     }//ini
 
     /**
@@ -111,8 +112,8 @@ public class InvitationControllerTest {
         List<DateRange> expResult = instance.unionDateRange(dateList);
         List<DateRange> result = instance.unionDateRange(dateList);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        
+        
     }
 
     /**
@@ -127,8 +128,8 @@ public class InvitationControllerTest {
         boolean expResult = instance.acceptInvitation(meeting_id, availability);
         boolean result = instance.acceptInvitation(meeting_id, availability);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        
+        
     }
 
     /**
@@ -142,8 +143,8 @@ public class InvitationControllerTest {
         boolean expResult = instance.rejectInvitation(meeting_id);
         boolean result = instance.rejectInvitation(meeting_id);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+      
+        
     }
 
     /**
@@ -157,8 +158,8 @@ public class InvitationControllerTest {
         String expResult = "";
         String result = "";
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+   
+        
     }
 
     /**
@@ -173,8 +174,8 @@ public class InvitationControllerTest {
         boolean expResult = instance.isMeetingIdValid(meeting_id, respon);
         boolean result = instance.isMeetingIdValid(meeting_id, respon);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+       
+        
     }
 
     /**
@@ -187,8 +188,8 @@ public class InvitationControllerTest {
         List<Invitation> expResult = instance.loadInvitations();
         List<Invitation> result = instance.loadInvitations();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+       
+        
     }
 
     /**
@@ -202,8 +203,8 @@ public class InvitationControllerTest {
         boolean expResult = instance.saveInvitations(invitations_list);
         boolean result = instance.saveInvitations(invitations_list);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+      
+        
     }
     
 }
