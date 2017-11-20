@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite tests="17" failures="1" name="com.mscheduler.controller.MeetingControllerTest" time="1.672" errors="9" skipped="0">
-=======
-<<<<<<< HEAD
-<testsuite tests="17" failures="2" name="com.mscheduler.controller.MeetingControllerTest" time="0.854" errors="7" skipped="0">
-=======
-<testsuite tests="17" failures="1" name="com.mscheduler.controller.MeetingControllerTest" time="0.859" errors="9" skipped="0">
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
+<testsuite tests="5" failures="0" name="com.mscheduler.controller.MeetingControllerTest" time="1.693" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
-    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
@@ -19,573 +11,60 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="ID"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-<<<<<<< HEAD
-    <property name="sun.os.patch.level" value="unknown"/>
-=======
     <property name="sun.os.patch.level" value=""/>
     <property name="test" value="com.mscheduler.controller.MeetingControllerTest"/>
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\KULIAH\PPL\MeetingScheduler\ppl\Source"/>
-    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.dir" value="E:\ppl\Source"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\CLARAC~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\X455LA\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.1\java\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Git\cmd;C:\Users\Clara Christina\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\R2014a\polyspace\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\X455LA\AppData\Roaming\npm;C:\Users\X455LA\AppData\Local\atom\bin;C:\Program Files\Heroku\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-<<<<<<< HEAD
-    <property name="os.version" value="10.12.6"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/eliamarch"/>
-    <property name="user.timezone" value="Asia/Jakarta"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-=======
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\Clara Christina"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\X455LA"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="Clara Christina"/>
-    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="user.name" value="Marchella Metta"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.1\java\maven\boot\plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-<<<<<<< HEAD
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar install"/>
-=======
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.controller.MeetingControllerTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.controller.MeetingControllerTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_151"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.1\java\maven"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-<<<<<<< HEAD
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
-  </properties>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testEditMeeting" time="0.183">
-=======
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testEditMeeting" time="0.031">
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testEditMeeting" time="0.016">
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testEditMeeting(MeetingControllerTest.java:253)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>editMeeting
-</system-out>
-  </testcase>
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastMeetingIndex" time="0.003">
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastMeetingIndex" time="0">
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testUpdateLastMeetingIndex(MeetingControllerTest.java:340)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>updateLastMeetingIndex
-</system-out>
-  </testcase>
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastMeetingIndex" time="0.125">
-=======
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastMeetingIndex" time="0.016">
-    <failure message="expected:&lt;com.mscheduler.model.LastIndex@7d3a22a9&gt; but was:&lt;com.mscheduler.model.LastIndex@1d082e88&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.LastIndex@7d3a22a9&gt; but was:&lt;com.mscheduler.model.LastIndex@1d082e88&gt;
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastMeetingIndex" time="0.047">
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
-    <failure message="expected:&lt;com.mscheduler.model.LastIndex@27c6e487&gt; but was:&lt;com.mscheduler.model.LastIndex@49070868&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.LastIndex@27c6e487&gt; but was:&lt;com.mscheduler.model.LastIndex@49070868&gt;
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.mscheduler.controller.MeetingControllerTest.testGetLastMeetingIndex(MeetingControllerTest.java:326)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</failure>
-    <system-out>getLastMeetingIndex
-</system-out>
-  </testcase>
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastInvitationIndex" time="0.016">
-=======
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastInvitationIndex" time="0.001">
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastInvitationIndex" time="0">
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testUpdateLastInvitationIndex(MeetingControllerTest.java:369)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>updateLastInvitationIndex
-</system-out>
-  </testcase>
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testDetailMeeting" time="0.219"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.156"/>
-=======
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testDetailMeeting" time="0.022"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.086"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetMeetingTitle" time="0.002">
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testDetailMeeting" time="0.109"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.047"/>
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetMeetingTitle" time="0">
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testGetMeetingTitle(MeetingControllerTest.java:282)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>getMeetingTitle
-</system-out>
-  </testcase>
-<<<<<<< HEAD
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.785"/>
   <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCancelMeeting" time="0"/>
-=======
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCancelMeeting" time="0.047"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testSaveMeetings" time="0.007">
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCancelMeeting" time="0.031"/>
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testSaveMeetings" time="0">
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testSaveMeetings(MeetingControllerTest.java:311)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>saveMeetings
-</system-out>
-  </testcase>
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.047"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeeting" time="0.063">
-=======
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.055"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeeting" time="0.068">
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.031"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeeting" time="0.016">
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.model.Meeting.toString(Meeting.java:55)
-	at java.lang.String.valueOf(String.java:2994)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at java.util.AbstractCollection.toString(AbstractCollection.java:462)
-	at java.lang.String.valueOf(String.java:2994)
-	at org.junit.Assert.format(Assert.java:842)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.mscheduler.controller.MeetingControllerTest.testListMeeting(MeetingControllerTest.java:224)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>listMeeting
-</system-out>
-  </testcase>
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.046"/>
-=======
-<<<<<<< HEAD
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.168"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeeting" time="0.029"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastInvitationIndex" time="0.013"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeetingView" time="0.131">
-    <failure message="expected:&lt;[com.mscheduler.model.ListMeetingViewModel@163e4e87, com.mscheduler.model.ListMeetingViewModel@56de5251, com.mscheduler.model.ListMeetingViewModel@419c5f1a, com.mscheduler.model.ListMeetingViewModel@12b0404f, com.mscheduler.model.ListMeetingViewModel@769e7ee8, com.mscheduler.model.ListMeetingViewModel@5276e6b0, com.mscheduler.model.ListMeetingViewModel@71b1176b, com.mscheduler.model.ListMeetingViewModel@6193932a, com.mscheduler.model.ListMeetingViewModel@647fd8ce, com.mscheduler.model.ListMeetingViewModel@159f197, com.mscheduler.model.ListMeetingViewModel@78aab498, com.mscheduler.model.ListMeetingViewModel@5dd6264, com.mscheduler.model.ListMeetingViewModel@1ffe63b9, com.mscheduler.model.ListMeetingViewModel@51e5fc98, com.mscheduler.model.ListMeetingViewModel@7c469c48, com.mscheduler.model.ListMeetingViewModel@12e61fe6, com.mscheduler.model.ListMeetingViewModel@7ee955a8, com.mscheduler.model.ListMeetingViewModel@1677d1, com.mscheduler.model.ListMeetingViewModel@48fa0f47, com.mscheduler.model.ListMeetingViewModel@6ac13091, com.mscheduler.model.ListMeetingViewModel@5e316c74, com.mscheduler.model.ListMeetingViewModel@6d2a209c, com.mscheduler.model.ListMeetingViewModel@75329a49, com.mscheduler.model.ListMeetingViewModel@161479c6, com.mscheduler.model.ListMeetingViewModel@4313f5bc, com.mscheduler.model.ListMeetingViewModel@7f010382, com.mscheduler.model.ListMeetingViewModel@1e802ef9]&gt; but was:&lt;[com.mscheduler.model.ListMeetingViewModel@2b6faea6, com.mscheduler.model.ListMeetingViewModel@778d1062, com.mscheduler.model.ListMeetingViewModel@670002, com.mscheduler.model.ListMeetingViewModel@1f0f1111, com.mscheduler.model.ListMeetingViewModel@49c386c8, com.mscheduler.model.ListMeetingViewModel@56528192, com.mscheduler.model.ListMeetingViewModel@6e0dec4a, com.mscheduler.model.ListMeetingViewModel@96def03, com.mscheduler.model.ListMeetingViewModel@5ccddd20, com.mscheduler.model.ListMeetingViewModel@1ed1993a, com.mscheduler.model.ListMeetingViewModel@1f3f4916, com.mscheduler.model.ListMeetingViewModel@794cb805, com.mscheduler.model.ListMeetingViewModel@4b5a5ed1, com.mscheduler.model.ListMeetingViewModel@59d016c9, com.mscheduler.model.ListMeetingViewModel@3cc2931c, com.mscheduler.model.ListMeetingViewModel@20d28811, com.mscheduler.model.ListMeetingViewModel@3967e60c, com.mscheduler.model.ListMeetingViewModel@60d8c9b7, com.mscheduler.model.ListMeetingViewModel@48aaecc3, com.mscheduler.model.ListMeetingViewModel@7c0c77c7, com.mscheduler.model.ListMeetingViewModel@7adda9cc, com.mscheduler.model.ListMeetingViewModel@5cee5251, com.mscheduler.model.ListMeetingViewModel@433d61fb, com.mscheduler.model.ListMeetingViewModel@5c909414, com.mscheduler.model.ListMeetingViewModel@4b14c583, com.mscheduler.model.ListMeetingViewModel@65466a6a, com.mscheduler.model.ListMeetingViewModel@4ddced80]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[com.mscheduler.model.ListMeetingViewModel@163e4e87, com.mscheduler.model.ListMeetingViewModel@56de5251, com.mscheduler.model.ListMeetingViewModel@419c5f1a, com.mscheduler.model.ListMeetingViewModel@12b0404f, com.mscheduler.model.ListMeetingViewModel@769e7ee8, com.mscheduler.model.ListMeetingViewModel@5276e6b0, com.mscheduler.model.ListMeetingViewModel@71b1176b, com.mscheduler.model.ListMeetingViewModel@6193932a, com.mscheduler.model.ListMeetingViewModel@647fd8ce, com.mscheduler.model.ListMeetingViewModel@159f197, com.mscheduler.model.ListMeetingViewModel@78aab498, com.mscheduler.model.ListMeetingViewModel@5dd6264, com.mscheduler.model.ListMeetingViewModel@1ffe63b9, com.mscheduler.model.ListMeetingViewModel@51e5fc98, com.mscheduler.model.ListMeetingViewModel@7c469c48, com.mscheduler.model.ListMeetingViewModel@12e61fe6, com.mscheduler.model.ListMeetingViewModel@7ee955a8, com.mscheduler.model.ListMeetingViewModel@1677d1, com.mscheduler.model.ListMeetingViewModel@48fa0f47, com.mscheduler.model.ListMeetingViewModel@6ac13091, com.mscheduler.model.ListMeetingViewModel@5e316c74, com.mscheduler.model.ListMeetingViewModel@6d2a209c, com.mscheduler.model.ListMeetingViewModel@75329a49, com.mscheduler.model.ListMeetingViewModel@161479c6, com.mscheduler.model.ListMeetingViewModel@4313f5bc, com.mscheduler.model.ListMeetingViewModel@7f010382, com.mscheduler.model.ListMeetingViewModel@1e802ef9]&gt; but was:&lt;[com.mscheduler.model.ListMeetingViewModel@2b6faea6, com.mscheduler.model.ListMeetingViewModel@778d1062, com.mscheduler.model.ListMeetingViewModel@670002, com.mscheduler.model.ListMeetingViewModel@1f0f1111, com.mscheduler.model.ListMeetingViewModel@49c386c8, com.mscheduler.model.ListMeetingViewModel@56528192, com.mscheduler.model.ListMeetingViewModel@6e0dec4a, com.mscheduler.model.ListMeetingViewModel@96def03, com.mscheduler.model.ListMeetingViewModel@5ccddd20, com.mscheduler.model.ListMeetingViewModel@1ed1993a, com.mscheduler.model.ListMeetingViewModel@1f3f4916, com.mscheduler.model.ListMeetingViewModel@794cb805, com.mscheduler.model.ListMeetingViewModel@4b5a5ed1, com.mscheduler.model.ListMeetingViewModel@59d016c9, com.mscheduler.model.ListMeetingViewModel@3cc2931c, com.mscheduler.model.ListMeetingViewModel@20d28811, com.mscheduler.model.ListMeetingViewModel@3967e60c, com.mscheduler.model.ListMeetingViewModel@60d8c9b7, com.mscheduler.model.ListMeetingViewModel@48aaecc3, com.mscheduler.model.ListMeetingViewModel@7c0c77c7, com.mscheduler.model.ListMeetingViewModel@7adda9cc, com.mscheduler.model.ListMeetingViewModel@5cee5251, com.mscheduler.model.ListMeetingViewModel@433d61fb, com.mscheduler.model.ListMeetingViewModel@5c909414, com.mscheduler.model.ListMeetingViewModel@4b14c583, com.mscheduler.model.ListMeetingViewModel@65466a6a, com.mscheduler.model.ListMeetingViewModel@4ddced80]&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.mscheduler.controller.MeetingControllerTest.testListMeetingView(MeetingControllerTest.java:268)
-=======
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.062"/>
->>>>>>> 33a1961b0c358ab924d91bdd7500340d6b5052ae
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeeting" time="0.016"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastInvitationIndex" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testGetLastInvitationIndex(MeetingControllerTest.java:354)
->>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>getLastInvitationIndex
-</system-out>
-  </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeetingView" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testListMeetingView(MeetingControllerTest.java:267)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>listMeetingView
-</system-out>
-  </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testLoadMeetings" time="0.002">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingControllerTest.testLoadMeetings(MeetingControllerTest.java:296)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-</error>
-    <system-out>loadMeetings
-</system-out>
-  </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetInstance" time="0"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.022"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.014"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeeting" time="0"/>
 </testsuite>
