@@ -30,11 +30,11 @@ public class InvitationControllerTest {
     
     public EasyMockRule rule = new EasyMockRule(this);
     @Mock
-    private InvitationController ic =  EasyMock.createMock(InvitationController.class); // 1
-    private SchedulerController sc =  EasyMock.createMock(SchedulerController.class);
+    private MeetingController mc =  EasyMock.createMock(MeetingController.class); // 1
+    
     
     @TestSubject
-    private MeetingController mc; // 2
+    private InvitationController ic; // 2
     
     public InvitationControllerTest() {
     }
@@ -102,8 +102,8 @@ public class InvitationControllerTest {
         System.out.println("detailInvitation");
         int meeting_id = 0;
         InvitationController instance = new InvitationController();
-        String expResult = null; 
-        String result = null;
+        String expResult = mc.detailMeeting(meeting_id).toString();; 
+        String result = mc.detailMeeting(meeting_id).toString();;
         assertEquals(expResult, result);
         
         
@@ -163,8 +163,8 @@ public class InvitationControllerTest {
         System.out.println("getMeetingTitle");
         int meeting_id = 0;
         InvitationController instance = new InvitationController();
-        String expResult = "";
-        String result = "";
+        String expResult = mc.getMeetingTitle(meeting_id);
+        String result = mc.getMeetingTitle(meeting_id);
         assertEquals(expResult, result);
    
         
