@@ -1,68 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="2" name="com.mscheduler.controller.MeetingControllerTest" time="0.922" errors="7" skipped="0">
+<testsuite tests="17" failures="2" name="com.mscheduler.controller.MeetingControllerTest" time="1.673" errors="7" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
-    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.country.format" value="ID"/>
+    <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
+    <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="ID"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="test" value="com.mscheduler.controller.MeetingControllerTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\KULIAH\PPL\MeetingScheduler\ppl\Source"/>
-    <property name="java.runtime.version" value="1.8.0_151-b12"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\CLARAC~1\AppData\Local\Temp\"/>
+    <property name="user.dir" value="/Users/eliamarch/Desktop/ppl/Source"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_k/29mwg0fj13v4ts2jq0zb2qr80000gn/T/"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Git\cmd;C:\Users\Clara Christina\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/eliamarch/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\Clara Christina"/>
-    <property name="user.timezone" value="Asia/Bangkok"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="user.home" value="/Users/eliamarch"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="Clara Christina"/>
-    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="user.name" value="eliamarch"/>
+    <property name="java.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.controller.MeetingControllerTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.controller.MeetingControllerTest -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_151"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/eliamarch/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
-    <property name="file.separator" value="\"/>
+    <property name="maven.home" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven"/>
+    <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testEditMeeting" time="0.093">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testEditMeeting" time="0.192">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingController.editMeeting(MeetingController.java:95)
 	at com.mscheduler.controller.MeetingControllerTest.testEditMeeting(MeetingControllerTest.java:253)
@@ -103,7 +102,7 @@
     <system-out>editMeeting
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastMeetingIndex" time="0">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastMeetingIndex" time="0.001">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testUpdateLastMeetingIndex(MeetingControllerTest.java:340)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -143,8 +142,8 @@
     <system-out>updateLastMeetingIndex
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastMeetingIndex" time="0">
-    <failure message="expected:&lt;com.mscheduler.model.LastIndex@2357d90a&gt; but was:&lt;com.mscheduler.model.LastIndex@6328d34a&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.LastIndex@2357d90a&gt; but was:&lt;com.mscheduler.model.LastIndex@6328d34a&gt;
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastMeetingIndex" time="0.004">
+    <failure message="expected:&lt;com.mscheduler.model.LastIndex@4de5031f&gt; but was:&lt;com.mscheduler.model.LastIndex@67e2d983&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.LastIndex@4de5031f&gt; but was:&lt;com.mscheduler.model.LastIndex@67e2d983&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -187,7 +186,7 @@
     <system-out>getLastMeetingIndex
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastInvitationIndex" time="0">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastInvitationIndex" time="0.002">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testUpdateLastInvitationIndex(MeetingControllerTest.java:369)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -227,9 +226,9 @@
     <system-out>updateLastInvitationIndex
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testDetailMeeting" time="0.062"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.063"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetMeetingTitle" time="0">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testDetailMeeting" time="0.133"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.077"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetMeetingTitle" time="0.002">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testGetMeetingTitle(MeetingControllerTest.java:282)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -269,8 +268,8 @@
     <system-out>getMeetingTitle
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCancelMeeting" time="0.031"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testSaveMeetings" time="0">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCancelMeeting" time="0.036"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testSaveMeetings" time="0.001">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testSaveMeetings(MeetingControllerTest.java:311)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -310,8 +309,8 @@
     <system-out>saveMeetings
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.031"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeeting" time="0.063">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.049"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeeting" time="0.037">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.model.Meeting.toString(Meeting.java:55)
 	at java.lang.String.valueOf(String.java:2994)
@@ -360,11 +359,11 @@
     <system-out>listMeeting
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.016"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.11"/>
   <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeeting" time="0.015"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastInvitationIndex" time="0.016"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeetingView" time="0.062">
-    <failure message="expected:&lt;[com.mscheduler.model.ListMeetingViewModel@38c5cc4c, com.mscheduler.model.ListMeetingViewModel@37918c79, com.mscheduler.model.ListMeetingViewModel@78e94dcf, com.mscheduler.model.ListMeetingViewModel@233fe9b6, com.mscheduler.model.ListMeetingViewModel@358ee631, com.mscheduler.model.ListMeetingViewModel@ec756bd, com.mscheduler.model.ListMeetingViewModel@3c72f59f, com.mscheduler.model.ListMeetingViewModel@60dcc9fe, com.mscheduler.model.ListMeetingViewModel@222114ba, com.mscheduler.model.ListMeetingViewModel@16e7dcfd, com.mscheduler.model.ListMeetingViewModel@3d121db3, com.mscheduler.model.ListMeetingViewModel@3b07a0d6, com.mscheduler.model.ListMeetingViewModel@11a9e7c8, com.mscheduler.model.ListMeetingViewModel@3901d134, com.mscheduler.model.ListMeetingViewModel@14d3bc22, com.mscheduler.model.ListMeetingViewModel@12d4bf7e, com.mscheduler.model.ListMeetingViewModel@4c1d9d4b, com.mscheduler.model.ListMeetingViewModel@7b227d8d, com.mscheduler.model.ListMeetingViewModel@7219ec67, com.mscheduler.model.ListMeetingViewModel@45018215, com.mscheduler.model.ListMeetingViewModel@65d6b83b, com.mscheduler.model.ListMeetingViewModel@d706f19, com.mscheduler.model.ListMeetingViewModel@30b7c004, com.mscheduler.model.ListMeetingViewModel@79efed2d, com.mscheduler.model.ListMeetingViewModel@2928854b, com.mscheduler.model.ListMeetingViewModel@27ae2fd0, com.mscheduler.model.ListMeetingViewModel@29176cc1]&gt; but was:&lt;[com.mscheduler.model.ListMeetingViewModel@2f177a4b, com.mscheduler.model.ListMeetingViewModel@4278a03f, com.mscheduler.model.ListMeetingViewModel@147ed70f, com.mscheduler.model.ListMeetingViewModel@61dd025, com.mscheduler.model.ListMeetingViewModel@124c278f, com.mscheduler.model.ListMeetingViewModel@15b204a1, com.mscheduler.model.ListMeetingViewModel@77167fb7, com.mscheduler.model.ListMeetingViewModel@1fe20588, com.mscheduler.model.ListMeetingViewModel@6ce139a4, com.mscheduler.model.ListMeetingViewModel@6973bf95, com.mscheduler.model.ListMeetingViewModel@2ddc8ecb, com.mscheduler.model.ListMeetingViewModel@229d10bd, com.mscheduler.model.ListMeetingViewModel@47542153, com.mscheduler.model.ListMeetingViewModel@33afa13b, com.mscheduler.model.ListMeetingViewModel@7a4ccb53, com.mscheduler.model.ListMeetingViewModel@309e345f, com.mscheduler.model.ListMeetingViewModel@56a6d5a6, com.mscheduler.model.ListMeetingViewModel@18ce0030, com.mscheduler.model.ListMeetingViewModel@4445629, com.mscheduler.model.ListMeetingViewModel@45b9a632, com.mscheduler.model.ListMeetingViewModel@25d250c6, com.mscheduler.model.ListMeetingViewModel@4df50bcc, com.mscheduler.model.ListMeetingViewModel@6b26e945, com.mscheduler.model.ListMeetingViewModel@63a65a25, com.mscheduler.model.ListMeetingViewModel@54c562f7, com.mscheduler.model.ListMeetingViewModel@318ba8c8, com.mscheduler.model.ListMeetingViewModel@6dbb137d]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[com.mscheduler.model.ListMeetingViewModel@38c5cc4c, com.mscheduler.model.ListMeetingViewModel@37918c79, com.mscheduler.model.ListMeetingViewModel@78e94dcf, com.mscheduler.model.ListMeetingViewModel@233fe9b6, com.mscheduler.model.ListMeetingViewModel@358ee631, com.mscheduler.model.ListMeetingViewModel@ec756bd, com.mscheduler.model.ListMeetingViewModel@3c72f59f, com.mscheduler.model.ListMeetingViewModel@60dcc9fe, com.mscheduler.model.ListMeetingViewModel@222114ba, com.mscheduler.model.ListMeetingViewModel@16e7dcfd, com.mscheduler.model.ListMeetingViewModel@3d121db3, com.mscheduler.model.ListMeetingViewModel@3b07a0d6, com.mscheduler.model.ListMeetingViewModel@11a9e7c8, com.mscheduler.model.ListMeetingViewModel@3901d134, com.mscheduler.model.ListMeetingViewModel@14d3bc22, com.mscheduler.model.ListMeetingViewModel@12d4bf7e, com.mscheduler.model.ListMeetingViewModel@4c1d9d4b, com.mscheduler.model.ListMeetingViewModel@7b227d8d, com.mscheduler.model.ListMeetingViewModel@7219ec67, com.mscheduler.model.ListMeetingViewModel@45018215, com.mscheduler.model.ListMeetingViewModel@65d6b83b, com.mscheduler.model.ListMeetingViewModel@d706f19, com.mscheduler.model.ListMeetingViewModel@30b7c004, com.mscheduler.model.ListMeetingViewModel@79efed2d, com.mscheduler.model.ListMeetingViewModel@2928854b, com.mscheduler.model.ListMeetingViewModel@27ae2fd0, com.mscheduler.model.ListMeetingViewModel@29176cc1]&gt; but was:&lt;[com.mscheduler.model.ListMeetingViewModel@2f177a4b, com.mscheduler.model.ListMeetingViewModel@4278a03f, com.mscheduler.model.ListMeetingViewModel@147ed70f, com.mscheduler.model.ListMeetingViewModel@61dd025, com.mscheduler.model.ListMeetingViewModel@124c278f, com.mscheduler.model.ListMeetingViewModel@15b204a1, com.mscheduler.model.ListMeetingViewModel@77167fb7, com.mscheduler.model.ListMeetingViewModel@1fe20588, com.mscheduler.model.ListMeetingViewModel@6ce139a4, com.mscheduler.model.ListMeetingViewModel@6973bf95, com.mscheduler.model.ListMeetingViewModel@2ddc8ecb, com.mscheduler.model.ListMeetingViewModel@229d10bd, com.mscheduler.model.ListMeetingViewModel@47542153, com.mscheduler.model.ListMeetingViewModel@33afa13b, com.mscheduler.model.ListMeetingViewModel@7a4ccb53, com.mscheduler.model.ListMeetingViewModel@309e345f, com.mscheduler.model.ListMeetingViewModel@56a6d5a6, com.mscheduler.model.ListMeetingViewModel@18ce0030, com.mscheduler.model.ListMeetingViewModel@4445629, com.mscheduler.model.ListMeetingViewModel@45b9a632, com.mscheduler.model.ListMeetingViewModel@25d250c6, com.mscheduler.model.ListMeetingViewModel@4df50bcc, com.mscheduler.model.ListMeetingViewModel@6b26e945, com.mscheduler.model.ListMeetingViewModel@63a65a25, com.mscheduler.model.ListMeetingViewModel@54c562f7, com.mscheduler.model.ListMeetingViewModel@318ba8c8, com.mscheduler.model.ListMeetingViewModel@6dbb137d]&gt;
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastInvitationIndex" time="0.007"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeetingView" time="0.086">
+    <failure message="expected:&lt;[com.mscheduler.model.ListMeetingViewModel@30b7c004, com.mscheduler.model.ListMeetingViewModel@79efed2d, com.mscheduler.model.ListMeetingViewModel@2928854b, com.mscheduler.model.ListMeetingViewModel@27ae2fd0, com.mscheduler.model.ListMeetingViewModel@29176cc1, com.mscheduler.model.ListMeetingViewModel@2f177a4b, com.mscheduler.model.ListMeetingViewModel@4278a03f, com.mscheduler.model.ListMeetingViewModel@147ed70f, com.mscheduler.model.ListMeetingViewModel@61dd025, com.mscheduler.model.ListMeetingViewModel@124c278f, com.mscheduler.model.ListMeetingViewModel@15b204a1, com.mscheduler.model.ListMeetingViewModel@77167fb7, com.mscheduler.model.ListMeetingViewModel@1fe20588, com.mscheduler.model.ListMeetingViewModel@6ce139a4, com.mscheduler.model.ListMeetingViewModel@6973bf95, com.mscheduler.model.ListMeetingViewModel@2ddc8ecb, com.mscheduler.model.ListMeetingViewModel@229d10bd, com.mscheduler.model.ListMeetingViewModel@47542153, com.mscheduler.model.ListMeetingViewModel@33afa13b, com.mscheduler.model.ListMeetingViewModel@7a4ccb53, com.mscheduler.model.ListMeetingViewModel@309e345f, com.mscheduler.model.ListMeetingViewModel@56a6d5a6, com.mscheduler.model.ListMeetingViewModel@18ce0030, com.mscheduler.model.ListMeetingViewModel@4445629, com.mscheduler.model.ListMeetingViewModel@45b9a632, com.mscheduler.model.ListMeetingViewModel@25d250c6, com.mscheduler.model.ListMeetingViewModel@4df50bcc]&gt; but was:&lt;[com.mscheduler.model.ListMeetingViewModel@6b26e945, com.mscheduler.model.ListMeetingViewModel@63a65a25, com.mscheduler.model.ListMeetingViewModel@54c562f7, com.mscheduler.model.ListMeetingViewModel@318ba8c8, com.mscheduler.model.ListMeetingViewModel@6dbb137d, com.mscheduler.model.ListMeetingViewModel@3c9d0b9d, com.mscheduler.model.ListMeetingViewModel@43301423, com.mscheduler.model.ListMeetingViewModel@2f112965, com.mscheduler.model.ListMeetingViewModel@1a04f701, com.mscheduler.model.ListMeetingViewModel@4e91d63f, com.mscheduler.model.ListMeetingViewModel@d4342c2, com.mscheduler.model.ListMeetingViewModel@2bbf180e, com.mscheduler.model.ListMeetingViewModel@163e4e87, com.mscheduler.model.ListMeetingViewModel@56de5251, com.mscheduler.model.ListMeetingViewModel@419c5f1a, com.mscheduler.model.ListMeetingViewModel@12b0404f, com.mscheduler.model.ListMeetingViewModel@769e7ee8, com.mscheduler.model.ListMeetingViewModel@5276e6b0, com.mscheduler.model.ListMeetingViewModel@71b1176b, com.mscheduler.model.ListMeetingViewModel@6193932a, com.mscheduler.model.ListMeetingViewModel@647fd8ce, com.mscheduler.model.ListMeetingViewModel@159f197, com.mscheduler.model.ListMeetingViewModel@78aab498, com.mscheduler.model.ListMeetingViewModel@5dd6264, com.mscheduler.model.ListMeetingViewModel@1ffe63b9, com.mscheduler.model.ListMeetingViewModel@51e5fc98, com.mscheduler.model.ListMeetingViewModel@7c469c48]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[com.mscheduler.model.ListMeetingViewModel@30b7c004, com.mscheduler.model.ListMeetingViewModel@79efed2d, com.mscheduler.model.ListMeetingViewModel@2928854b, com.mscheduler.model.ListMeetingViewModel@27ae2fd0, com.mscheduler.model.ListMeetingViewModel@29176cc1, com.mscheduler.model.ListMeetingViewModel@2f177a4b, com.mscheduler.model.ListMeetingViewModel@4278a03f, com.mscheduler.model.ListMeetingViewModel@147ed70f, com.mscheduler.model.ListMeetingViewModel@61dd025, com.mscheduler.model.ListMeetingViewModel@124c278f, com.mscheduler.model.ListMeetingViewModel@15b204a1, com.mscheduler.model.ListMeetingViewModel@77167fb7, com.mscheduler.model.ListMeetingViewModel@1fe20588, com.mscheduler.model.ListMeetingViewModel@6ce139a4, com.mscheduler.model.ListMeetingViewModel@6973bf95, com.mscheduler.model.ListMeetingViewModel@2ddc8ecb, com.mscheduler.model.ListMeetingViewModel@229d10bd, com.mscheduler.model.ListMeetingViewModel@47542153, com.mscheduler.model.ListMeetingViewModel@33afa13b, com.mscheduler.model.ListMeetingViewModel@7a4ccb53, com.mscheduler.model.ListMeetingViewModel@309e345f, com.mscheduler.model.ListMeetingViewModel@56a6d5a6, com.mscheduler.model.ListMeetingViewModel@18ce0030, com.mscheduler.model.ListMeetingViewModel@4445629, com.mscheduler.model.ListMeetingViewModel@45b9a632, com.mscheduler.model.ListMeetingViewModel@25d250c6, com.mscheduler.model.ListMeetingViewModel@4df50bcc]&gt; but was:&lt;[com.mscheduler.model.ListMeetingViewModel@6b26e945, com.mscheduler.model.ListMeetingViewModel@63a65a25, com.mscheduler.model.ListMeetingViewModel@54c562f7, com.mscheduler.model.ListMeetingViewModel@318ba8c8, com.mscheduler.model.ListMeetingViewModel@6dbb137d, com.mscheduler.model.ListMeetingViewModel@3c9d0b9d, com.mscheduler.model.ListMeetingViewModel@43301423, com.mscheduler.model.ListMeetingViewModel@2f112965, com.mscheduler.model.ListMeetingViewModel@1a04f701, com.mscheduler.model.ListMeetingViewModel@4e91d63f, com.mscheduler.model.ListMeetingViewModel@d4342c2, com.mscheduler.model.ListMeetingViewModel@2bbf180e, com.mscheduler.model.ListMeetingViewModel@163e4e87, com.mscheduler.model.ListMeetingViewModel@56de5251, com.mscheduler.model.ListMeetingViewModel@419c5f1a, com.mscheduler.model.ListMeetingViewModel@12b0404f, com.mscheduler.model.ListMeetingViewModel@769e7ee8, com.mscheduler.model.ListMeetingViewModel@5276e6b0, com.mscheduler.model.ListMeetingViewModel@71b1176b, com.mscheduler.model.ListMeetingViewModel@6193932a, com.mscheduler.model.ListMeetingViewModel@647fd8ce, com.mscheduler.model.ListMeetingViewModel@159f197, com.mscheduler.model.ListMeetingViewModel@78aab498, com.mscheduler.model.ListMeetingViewModel@5dd6264, com.mscheduler.model.ListMeetingViewModel@1ffe63b9, com.mscheduler.model.ListMeetingViewModel@51e5fc98, com.mscheduler.model.ListMeetingViewModel@7c469c48]&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
