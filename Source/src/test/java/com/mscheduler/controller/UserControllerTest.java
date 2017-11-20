@@ -6,12 +6,8 @@
 package com.mscheduler.controller;
 
 import com.mscheduler.model.User;
-import java.util.ArrayList;
 import java.util.List;
 import org.easymock.EasyMock;
-import static org.easymock.EasyMock.anyObject;
-import static org.easymock.EasyMock.expect;
-import static org.easymock.EasyMock.replay;
 import org.easymock.EasyMockRule;
 import org.easymock.EasyMockSupport;
 import org.easymock.Mock;
@@ -65,8 +61,6 @@ public class UserControllerTest extends EasyMockSupport{
         UserController expResult = UserController.getInstance();
         UserController result = UserController.getInstance();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -79,8 +73,6 @@ public class UserControllerTest extends EasyMockSupport{
         int expResult = 6;
         List<User> result = instance.loadUser();
         assertEquals(expResult, result.size());
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -95,8 +87,6 @@ public class UserControllerTest extends EasyMockSupport{
         String res = result.get(0).getEmail();
         
         assertEquals(expResult, res);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -109,8 +99,6 @@ public class UserControllerTest extends EasyMockSupport{
         String expResult = instance.listUsersAll();
         String result = instance.listUsersAll();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -131,8 +119,6 @@ public class UserControllerTest extends EasyMockSupport{
         String expResult2 = instance2.listUserAll(page2);
         String result2 = instance2.listUserAll(page2);
         assertEquals(expResult2, result2);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -141,13 +127,10 @@ public class UserControllerTest extends EasyMockSupport{
     @Test
     public void testAddUser() {
         System.out.println("addUser");
-//        usr = EasyMock.createMock(User.class);
         UserController instance = new UserController();
         boolean expResult = false;
         boolean result = instance.addUser(usr);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -165,8 +148,6 @@ public class UserControllerTest extends EasyMockSupport{
         String expResult = "0";
         String result = instance.checkLogin(email, pass);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -178,13 +159,9 @@ public class UserControllerTest extends EasyMockSupport{
         String email = "clara@gmail.com";
         User userMock = EasyMock.createMock(User.class);
         UserController instance = new UserController();
-//        userMock.setEmail(email);
-//        EasyMock.expect(userMock.getEmail());
         boolean expResult = false;
         boolean result = instance.editUser(email, userMock);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -204,8 +181,6 @@ public class UserControllerTest extends EasyMockSupport{
         int expResult = 0;
         int result = instance.userEditAll(email, userMock);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -227,8 +202,6 @@ public class UserControllerTest extends EasyMockSupport{
         int expResult = 0;
         int result = instance.userEditOne(email, condition, userMock);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -242,8 +215,6 @@ public class UserControllerTest extends EasyMockSupport{
         int expResult = 0;
         int result = instance.intEditUser(email);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -257,8 +228,6 @@ public class UserControllerTest extends EasyMockSupport{
         int expResult = 0;
         int result = instance.delUser(email);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -275,8 +244,6 @@ public class UserControllerTest extends EasyMockSupport{
         String expResult = instance.login(email, password).getEmail();
         
         assertEquals(expResult, res);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -290,8 +257,6 @@ public class UserControllerTest extends EasyMockSupport{
         User expResult = instance.getUserByEmail(email);
         User result = instance.getUserByEmail(email);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -302,11 +267,9 @@ public class UserControllerTest extends EasyMockSupport{
         System.out.println("existUser");
         String email = "clara@gmail.com";
         UserController instance = new UserController();
-        boolean expResult = instance.existUser(email);;
+        boolean expResult = instance.existUser(email);
         boolean result = instance.existUser(email);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
     
 }

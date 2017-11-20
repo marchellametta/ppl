@@ -32,20 +32,8 @@ public class ListMeetingViewModelTest {
     @After
     public void tearDown() {
     }
-
-    /**
-     * Test of getMeeting_id method, of class ListMeetingViewModel.
-     */
-//    @Test
-//    public void testGetMeeting_id() {
-//        System.out.println("getMeeting_id");
-//        ListMeetingViewModel instance = null;
-//        int expResult = 0;
-//        int result = instance.getMeeting_id();
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
+    
+    
     /**
      * Test of setMeeting_id method, of class ListMeetingViewModel.
      */
@@ -55,77 +43,30 @@ public class ListMeetingViewModelTest {
         int meeting_id = 0;
         ListMeetingViewModel instance = new ListMeetingViewModel(meeting_id, "Rapat dosen", MeetingStatus.negotiating);
         instance.setMeeting_id(meeting_id);
-        // TODO review the generated test code and remove the default call to fail.
-
-        //fail("The test case is a prototype.");
-        //getMeetingId
+        
         System.out.println("getMeeting_id");
-        //ListMeetingViewModel instance = null;
         int expResult = 0;
         int result = instance.getMeeting_id();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-//        try {
-//            assertEquals(expResult, result);
-//        } catch (Exception e) {
-//            System.out.println("Tidak sesuai ekspektasi");
-//        }
     }
 
-    /**
-     * Test of getMeeting_title method, of class ListMeetingViewModel.
-     */
-//    @Test
-//    public void testGetMeeting_title() {
-//        System.out.println("getMeeting_title");
-//        ListMeetingViewModel instance = null;
-//        String expResult = "";
-//        String result = instance.getMeeting_title();
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
     /**
      * Test of setMeeting_title method, of class ListMeetingViewModel.
      */
     @Test
     public void testSetMeeting_title() {
         System.out.println("setMeeting_title");
-        String meeting_title = "Rapat dosen";
-        //int meeting_id = 0;
+        String meeting_title = "Rapat himpunan";
         ListMeetingViewModel instance = new ListMeetingViewModel(0, meeting_title, MeetingStatus.negotiating);
         instance.setMeeting_title(meeting_title);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
 
         System.out.println("getMeeting_title");
-        //ListMeetingViewModel instance = null;
-        String expResult = "Rapat dosen";
+        String expResult = "Rapat himpunan";
         String result = instance.getMeeting_title();
         
         assertEquals(expResult, result);
-//        try {
-//            assertEquals(expResult, result);
-//        } catch (Exception e) {
-//            System.out.println("Tidak sesuai ekspektasi");
-//        }
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
-
-    /**
-     * Test of getMeeting_status method, of class ListMeetingViewModel.
-     */
-//    @Test
-//    public void testGetMeeting_status() {
-//        System.out.println("getMeeting_status");
-//        ListMeetingViewModel instance = null;
-//        MeetingStatus expResult = null;
-//        MeetingStatus result = instance.getMeeting_status();
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
+    
     /**
      * Test of setMeetingStatus method, of class ListMeetingViewModel.
      */
@@ -135,23 +76,11 @@ public class ListMeetingViewModelTest {
         MeetingStatus meeting_status = MeetingStatus.negotiating;
         ListMeetingViewModel instance = new ListMeetingViewModel(0, "Rapat dosen", meeting_status);
         instance.setMeetingStatus(meeting_status);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
 
         System.out.println("getMeeting_status");
-        //ListMeetingViewModel instance = null;
         MeetingStatus expResult = MeetingStatus.negotiating;
         MeetingStatus result = instance.getMeeting_status();
-        //assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
         assertEquals(expResult, result);
-//        try {
-//            assertEquals(expResult, result);
-//        } catch (Exception e) {
-//            System.out.println("Tidak sesuai ekspektasi");
-//        }
-
     }
 
 }

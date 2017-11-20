@@ -52,70 +52,9 @@ public class SchedulerControllerTest {
     }
 
     /**
-     * Test of runSchedule method, of class SchedulerController.
+     * Test of updateAcceptParticipant method, of class SchedulerController.
      */
     
-    /**
-    @Test
-    public void testRunSchedule() {
-        System.out.println("runSchedule");
-        int meeting_id = 1;
-        InvitationController ic = new InvitationController();
-        MeetingController mc = new MeetingController(ic);
-        SchedulerController instance = new SchedulerController();
-        Schedule expResult;
-        List<Schedule> mockSchedule = EasyMock.createMock(List.class);
-
-        int durasi = 10;
-//        List<Schedule> listSchedule;
-        Schedule resultSchedule;
-        Meeting m;
-        DateRange range;
-
-        //Algoritma
-        m = mc.detailMeeting(meeting_id);
-        range = m.getProposed_date_range();
-        durasi = m.getDuration();
-        //mockSchedule = instance.generateRange(range,durasi,m);
-        EasyMock.expect(instance.generateRange(range, durasi, m)).andReturn(mockSchedule);
-
-        //mockSchedule = instance.discardConflictedRange(mockSchedule,range);
-        EasyMock.expect(instance.discardConflictedRange(mockSchedule, range)).andReturn(mockSchedule);
-
-        //mockSchedule = instance.intersectWithImportantParticipant(mockSchedule,m);
-        EasyMock.expect(instance.intersectWithImportantParticipant(mockSchedule, m)).andReturn(mockSchedule);
-
-        if (mockSchedule == null) {
-            expResult = null;
-        }
-        //mockSchedule = instance.updateAcceptParticipant(mockSchedule,m);
-        EasyMock.expect(instance.updateAcceptParticipant(mockSchedule, m)).andReturn(mockSchedule);
-        EasyMock.expectLastCall().anyTimes();
-        EasyMock.replay(mockSchedule);
-
-        //sort
-        Comparator<Schedule> byTotalParticipant = Comparator.comparing(
-                x -> x.getTotalParticipant()
-        );
-        Comparator<Schedule> byDate = Comparator.comparing(
-                x -> x.getDate().getDate_end()
-        );
-        resultSchedule = mockSchedule.stream()
-                .filter(x -> x.getTotalParticipant() > 1).sorted(byTotalParticipant.thenComparing(byDate)).findFirst().orElse(null);
-        if (resultSchedule != null) {
-            expResult = resultSchedule;
-        } else {
-            expResult = null;
-        }
-
-        //Schedule expResult = null;
-        Schedule result = instance.runSchedule(meeting_id);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-    */
-
     @Test
     public void testUpdateAcceptParticipant() {
         System.out.println("updateAcceptParticipant");

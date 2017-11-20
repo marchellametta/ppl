@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="com.mscheduler.model.UserTest" time="0.469" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="com.mscheduler.model.UserTest" time="0.672" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Git\cmd;C:\Users\Clara Christina\AppData\Local\Microsoft\WindowsApps;;."/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.model.UserTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.model.UserTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,18 +62,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mscheduler.model.UserTest" name="testCheckdel" time="0.296"/>
+  <testcase classname="com.mscheduler.model.UserTest" name="testCheckdel" time="0.437"/>
   <testcase classname="com.mscheduler.model.UserTest" name="testSetPassword" time="0"/>
   <testcase classname="com.mscheduler.model.UserTest" name="testLastAdmin" time="0"/>
-  <testcase classname="com.mscheduler.model.UserTest" name="testDel" time="0.016"/>
-  <testcase classname="com.mscheduler.model.UserTest" name="testBooleanReadPass" time="0"/>
-  <testcase classname="com.mscheduler.model.UserTest" name="testBooleanReadUser" time="0.015"/>
+  <testcase classname="com.mscheduler.model.UserTest" name="testDel" time="0.015"/>
+  <testcase classname="com.mscheduler.model.UserTest" name="testBooleanReadPass" time="0.016"/>
+  <testcase classname="com.mscheduler.model.UserTest" name="testBooleanReadUser" time="0"/>
   <testcase classname="com.mscheduler.model.UserTest" name="testSetIsAdmin" time="0"/>
   <testcase classname="com.mscheduler.model.UserTest" name="testCheckLoginDb" time="0"/>
   <testcase classname="com.mscheduler.model.UserTest" name="testSetName" time="0"/>
-  <testcase classname="com.mscheduler.model.UserTest" name="testSaving" time="0"/>
-  <testcase classname="com.mscheduler.model.UserTest" name="testEditAll" time="0.016"/>
-  <testcase classname="com.mscheduler.model.UserTest" name="testEditOne" time="0"/>
+  <testcase classname="com.mscheduler.model.UserTest" name="testSaving" time="0.016"/>
+  <testcase classname="com.mscheduler.model.UserTest" name="testEditAll" time="0"/>
+  <testcase classname="com.mscheduler.model.UserTest" name="testEditOne" time="0.015"/>
   <testcase classname="com.mscheduler.model.UserTest" name="testSetEmail" time="0"/>
   <testcase classname="com.mscheduler.model.UserTest" name="testIsIsAdmin" time="0"/>
 </testsuite>
