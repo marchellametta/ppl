@@ -44,7 +44,7 @@ public class ScheduleTest {
     public void testGetDate() {
         System.out.println("getDate");
         Meeting meeting = new Meeting();
-        DateRange expResult = new DateRange("01-01-2017 - 01-02-2017");
+        DateRange expResult = new DateRange("01/01/2017 - 01/02/2017");
         Schedule instance = new Schedule(meeting,expResult);
         DateRange result = instance.getDate();
         try{
@@ -61,7 +61,7 @@ public class ScheduleTest {
     public void testSetDate() {
         System.out.println("setDate");
         Meeting meeting = new Meeting();
-        DateRange date = new DateRange("01-01-2017 - 01-02-2017");
+        DateRange date = new DateRange("01/01/2017 - 01/02/2017");
         Schedule instance = new Schedule(meeting,date);
         DateRange expResult = new DateRange("01-01-2017 - 01-03-2017");
         instance.setDate(expResult);
@@ -80,7 +80,7 @@ public class ScheduleTest {
     public void testAddImportantParticipant() {
         System.out.println("addImportantParticipant");
         Meeting meeting = new Meeting();
-        DateRange date = new DateRange("01-01-2017 - 01-02-2017");
+        DateRange date = new DateRange("01/01/2017 - 01/02/2017");
         Schedule instance = new Schedule(meeting,date);
         int expResult = instance.getTotalParticipant() + 1;
         instance.addImportantParticipant();
@@ -99,7 +99,7 @@ public class ScheduleTest {
     public void testAddParticipant() {
         System.out.println("addImportantParticipant");
         Meeting meeting = new Meeting();
-        DateRange date = new DateRange("01-01-2017 - 01-02-2017");
+        DateRange date = new DateRange("01/01/2017 - 01/02/2017");
         Schedule instance = new Schedule(meeting,date);
         int expResult = instance.getTotalParticipant() + 1;
         instance.addParticipant();
