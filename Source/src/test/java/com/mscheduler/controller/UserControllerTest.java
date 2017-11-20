@@ -76,9 +76,9 @@ public class UserControllerTest extends EasyMockSupport{
     public void testLoadUser() {
         System.out.println("loadUser");
         UserController instance = new UserController();
-        List<User> expResult = new ArrayList();
+        int expResult = 6;
         List<User> result = instance.loadUser();
-        assertEquals(expResult, result);
+        assertEquals(expResult, result.size());
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -117,13 +117,20 @@ public class UserControllerTest extends EasyMockSupport{
      * Test of listUserAll method, of class UserController.
      */
     @Test
-    public void testListUserAll() {
+    public void testListUserAll() { //Boundary
         System.out.println("listUserAll");
-        int page = 0;
+        int page = 1;
         UserController instance = new UserController();
         String expResult = instance.listUserAll(page);
         String result = instance.listUserAll(page);
         assertEquals(expResult, result);
+        
+        System.out.println("listUserAll");
+        int page2 = 0;
+        UserController instance2 = new UserController();
+        String expResult2 = instance2.listUserAll(page2);
+        String result2 = instance2.listUserAll(page2);
+        assertEquals(expResult2, result2);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -186,9 +193,11 @@ public class UserControllerTest extends EasyMockSupport{
     @Test
     public void testUserEditAll() {
         System.out.println("userEditAll");
-        String email = "";
+        String email = "clara@mail.com";
         
         User userMock = EasyMock.createMock(User.class);
+        EasyMock.expect(userMock.getEmail()).andReturn("");
+        EasyMock.expectLastCall().anyTimes();
         EasyMock.expect(userMock.editAll(userMock)).andReturn(true);
         EasyMock.replay(userMock);
         UserController instance = new UserController();
@@ -209,6 +218,8 @@ public class UserControllerTest extends EasyMockSupport{
         String condition = "";
         UserController instance = new UserController();
         User userMock = EasyMock.createMock(User.class);
+        EasyMock.expect(userMock.getEmail()).andReturn("");
+        EasyMock.expectLastCall().anyTimes();
         EasyMock.expect(userMock.readUserOne(email)).andReturn(userMock);
         EasyMock.replay(userMock);
         
