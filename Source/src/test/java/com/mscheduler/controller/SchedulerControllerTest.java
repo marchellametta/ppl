@@ -66,7 +66,7 @@ public class SchedulerControllerTest {
         List<Invitation> mockList = EasyMock.createMock(List.class);
         List<Schedule> sch = new ArrayList();
         InvitationController ic = EasyMock.createMock(InvitationController.class);
-        Invitation i = EasyMock.createMock(Invitation.class);
+        Invitation i = new Invitation();
         
         expect(ic.listInvitation(m.getId(), m.getParticipants())).andReturn(mockList);
         List<DateRange> availability = new ArrayList();
