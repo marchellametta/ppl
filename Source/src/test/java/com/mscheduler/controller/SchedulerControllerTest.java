@@ -7,12 +7,10 @@ package com.mscheduler.controller;
 
 import com.mscheduler.model.DateRange;
 import com.mscheduler.model.Invitation;
-import com.mscheduler.model.InvitationStatus;
 import com.mscheduler.model.Meeting;
 import com.mscheduler.model.MeetingStatus;
 import com.mscheduler.model.Schedule;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -66,7 +64,7 @@ public class SchedulerControllerTest {
                 new DateRange("02-06-2017 - 31-12-2017"), false);
         boolean expResult = true;
         List<Invitation> mockList = EasyMock.createMock(List.class);
-        List<Schedule> schmock = new ArrayList();
+        List<Schedule> sch = new ArrayList();
         InvitationController ic = EasyMock.createMock(InvitationController.class);
         Invitation i = EasyMock.createMock(Invitation.class);
         
@@ -75,17 +73,17 @@ public class SchedulerControllerTest {
         availability.add(new DateRange("02-06-2017 - 31-12-2017"));
         i.setAvailability(availability);
         expect(ic.acceptInvitation(10, availability)).andReturn(true);
-        schmock.stream().filter(x-> x.getDate().isBetweenAny(i.getAvailability())).collect(Collectors.toList());
+        sch.stream().filter(x-> x.getDate().isBetweenAny(i.getAvailability())).collect(Collectors.toList());
         EasyMock.expectLastCall().anyTimes();
         
 
-        if(schmock.isEmpty()){
+        if(sch.isEmpty()){
             expResult = true;
         }
         replay(ic,i,mockList);
         SchedulerController instance = new SchedulerController();
         try {
-            List<Schedule> tempList = instance.updateAcceptParticipant(schmock, m);
+            List<Schedule> tempList = instance.updateAcceptParticipant(sch, m);
             boolean result = tempList.isEmpty();
             assertEquals(expResult, result);
         } catch (Exception e) {
