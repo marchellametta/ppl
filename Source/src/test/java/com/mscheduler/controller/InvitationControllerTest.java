@@ -11,6 +11,10 @@ import com.mscheduler.model.Invitation;
 import com.mscheduler.model.ListInvitationViewModel;
 import java.util.ArrayList;
 import java.util.List;
+import org.easymock.EasyMock;
+import org.easymock.EasyMockRule;
+import org.easymock.Mock;
+import org.easymock.TestSubject;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -23,6 +27,14 @@ import static org.junit.Assert.*;
  * @author Clara Christina
  */
 public class InvitationControllerTest {
+    
+    public EasyMockRule rule = new EasyMockRule(this);
+    @Mock
+    private MeetingController mc =  EasyMock.createMock(MeetingController.class); // 1
+    
+    
+    @TestSubject
+    private InvitationController ic; // 2
     
     public InvitationControllerTest() {
     }
@@ -52,8 +64,6 @@ public class InvitationControllerTest {
         InvitationController expResult = InvitationController.getInstance();
         InvitationController result = InvitationController.getInstance();
         assertEquals(expResult, result);
-
-        
     }
 
     /**
@@ -66,8 +76,6 @@ public class InvitationControllerTest {
         List<ListInvitationViewModel> expResult = instance.listInvitationView();
         List<ListInvitationViewModel> result = instance.listInvitationView();
         assertEquals(expResult, result);
-   
-        
     }
 
     /**
@@ -94,8 +102,8 @@ public class InvitationControllerTest {
         System.out.println("detailInvitation");
         int meeting_id = 0;
         InvitationController instance = new InvitationController();
-        String expResult = null; 
-        String result = null;
+        String expResult = mc.detailMeeting(meeting_id).toString();; 
+        String result = mc.detailMeeting(meeting_id).toString();;
         assertEquals(expResult, result);
         
         
@@ -155,8 +163,8 @@ public class InvitationControllerTest {
         System.out.println("getMeetingTitle");
         int meeting_id = 0;
         InvitationController instance = new InvitationController();
-        String expResult = "";
-        String result = "";
+        String expResult = mc.getMeetingTitle(meeting_id);
+        String result = mc.getMeetingTitle(meeting_id);
         assertEquals(expResult, result);
    
         
