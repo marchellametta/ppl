@@ -65,7 +65,7 @@ public class UserControllerTest extends EasyMockSupport{
 
     /**
      * Test of loadUser method, of class UserController.
-     */
+     */ 
     @Test
     public void testLoadUser() {
         System.out.println("loadUser");
