@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="4" name="com.mscheduler.controller.UserControllerTest" time="0.656" errors="1" skipped="0">
+<testsuite tests="15" failures="4" name="com.mscheduler.controller.UserControllerTest" time="1.282" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Git\cmd;C:\Users\Clara Christina\AppData\Local\Microsoft\WindowsApps;;."/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.controller.UserControllerTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mscheduler.controller.UserControllerTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testEditUser" time="0.172"/>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testGetUserByEmail" time="0.125">
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testEditUser" time="0.266"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testGetUserByEmail" time="0.172">
     <failure message="expected:&lt;com.mscheduler.model.User@52aa2946&gt; but was:&lt;com.mscheduler.model.User@4de5031f&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.User@52aa2946&gt; but was:&lt;com.mscheduler.model.User@4de5031f&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -107,7 +107,7 @@
     <system-out>getUserByEmail
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLoadUser" time="0">
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLoadUser" time="0.016">
     <failure message="expected:&lt;[]&gt; but was:&lt;[com.mscheduler.model.User@45f45fa1, com.mscheduler.model.User@4c6e276e, com.mscheduler.model.User@534df152, com.mscheduler.model.User@52e677af, com.mscheduler.model.User@35083305, com.mscheduler.model.User@8e0379d, com.mscheduler.model.User@341b80b2, com.mscheduler.model.User@55a1c291, com.mscheduler.model.User@2145433b, com.mscheduler.model.User@2890c451, com.mscheduler.model.User@40e6dfe1, com.mscheduler.model.User@1b083826, com.mscheduler.model.User@105fece7, com.mscheduler.model.User@3ec300f1, com.mscheduler.model.User@482cd91f, com.mscheduler.model.User@123f1134, com.mscheduler.model.User@7d68ef40, com.mscheduler.model.User@5b0abc94, com.mscheduler.model.User@75c072cb, com.mscheduler.model.User@1f1c7bf6, com.mscheduler.model.User@25b485ba, com.mscheduler.model.User@2b546384, com.mscheduler.model.User@5d740a0f, com.mscheduler.model.User@214b199c, com.mscheduler.model.User@20d3d15a, com.mscheduler.model.User@2893de87, com.mscheduler.model.User@55ca8de8, com.mscheduler.model.User@2c34f934, com.mscheduler.model.User@12d3a4e9, com.mscheduler.model.User@240237d2]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[]&gt; but was:&lt;[com.mscheduler.model.User@45f45fa1, com.mscheduler.model.User@4c6e276e, com.mscheduler.model.User@534df152, com.mscheduler.model.User@52e677af, com.mscheduler.model.User@35083305, com.mscheduler.model.User@8e0379d, com.mscheduler.model.User@341b80b2, com.mscheduler.model.User@55a1c291, com.mscheduler.model.User@2145433b, com.mscheduler.model.User@2890c451, com.mscheduler.model.User@40e6dfe1, com.mscheduler.model.User@1b083826, com.mscheduler.model.User@105fece7, com.mscheduler.model.User@3ec300f1, com.mscheduler.model.User@482cd91f, com.mscheduler.model.User@123f1134, com.mscheduler.model.User@7d68ef40, com.mscheduler.model.User@5b0abc94, com.mscheduler.model.User@75c072cb, com.mscheduler.model.User@1f1c7bf6, com.mscheduler.model.User@25b485ba, com.mscheduler.model.User@2b546384, com.mscheduler.model.User@5d740a0f, com.mscheduler.model.User@214b199c, com.mscheduler.model.User@20d3d15a, com.mscheduler.model.User@2893de87, com.mscheduler.model.User@55ca8de8, com.mscheduler.model.User@2c34f934, com.mscheduler.model.User@12d3a4e9, com.mscheduler.model.User@240237d2]&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -153,9 +153,9 @@
   </testcase>
   <testcase classname="com.mscheduler.controller.UserControllerTest" name="testAddUser" time="0"/>
   <testcase classname="com.mscheduler.controller.UserControllerTest" name="testCheckLogin" time="0.015"/>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLogin" time="0.016"/>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testExistUser" time="0"/>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testListUserAll" time="0.015">
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testLogin" time="0.032"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testExistUser" time="0.015"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testListUserAll" time="0.032">
     <error message="-10" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: -10
 	at com.mscheduler.Utilities.getPage(Utilities.java:32)
 	at com.mscheduler.controller.UserController.listUserAll(UserController.java:109)
@@ -198,7 +198,7 @@
 [com.mscheduler.model.User@3c153a1, com.mscheduler.model.User@b62fe6d, com.mscheduler.model.User@13acb0d1, com.mscheduler.model.User@3e3047e6, com.mscheduler.model.User@37e547da, com.mscheduler.model.User@2b6856dd, com.mscheduler.model.User@5db45159, com.mscheduler.model.User@6107227e, com.mscheduler.model.User@7c417213, com.mscheduler.model.User@15761df8, com.mscheduler.model.User@6ab7a896, com.mscheduler.model.User@327b636c, com.mscheduler.model.User@45dd4eda, com.mscheduler.model.User@60611244, com.mscheduler.model.User@3745e5c6, com.mscheduler.model.User@5e4c8041, com.mscheduler.model.User@71c8becc, com.mscheduler.model.User@19d37183, com.mscheduler.model.User@1a0dcaa, com.mscheduler.model.User@3bd40a57, com.mscheduler.model.User@fdefd3f, com.mscheduler.model.User@d83da2e, com.mscheduler.model.User@a4102b8, com.mscheduler.model.User@11dc3715, com.mscheduler.model.User@69930714, com.mscheduler.model.User@7a52f2a2, com.mscheduler.model.User@78047b92, com.mscheduler.model.User@8909f18, com.mscheduler.model.User@79ca92b9, com.mscheduler.model.User@1460a8c0]
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testDelUser" time="0"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testDelUser" time="0.015"/>
   <testcase classname="com.mscheduler.controller.UserControllerTest" name="testUserEditAll" time="0.016">
     <failure message="
   Unexpected method call User.getEmail():
@@ -249,7 +249,7 @@
     <system-out>userEditAll
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testUserEditOne" time="0.016">
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testUserEditOne" time="0">
     <failure message="
   Unexpected method call User.getEmail():
     User.readUserOne(&quot;&quot;): expected: 1, actual: 0" type="java.lang.AssertionError">java.lang.AssertionError: 
@@ -299,8 +299,8 @@
     <system-out>userEditOne
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testListUsersAll" time="0"/>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testIntEditUser" time="0.015"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testListUsersAll" time="0.015"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testIntEditUser" time="0.032"/>
   <testcase classname="com.mscheduler.controller.UserControllerTest" name="testGetInstance" time="0"/>
-  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testListUser" time="0"/>
+  <testcase classname="com.mscheduler.controller.UserControllerTest" name="testListUser" time="0.015"/>
 </testsuite>

@@ -79,7 +79,7 @@ public class SchedulerController {
         }
     }
     
-    private List<Schedule> generateRange(DateRange range, int durasi, Meeting meeting){
+    public List<Schedule> generateRange(DateRange range, int durasi, Meeting meeting){
         //Kamus
         List<Schedule> listSchedule;
         LocalDateTime date;
@@ -96,7 +96,7 @@ public class SchedulerController {
         return listSchedule;
     }
     
-    private List<Schedule> intersectWithImportantParticipant(List<Schedule> listSchedule,Meeting m){
+    public List<Schedule> intersectWithImportantParticipant(List<Schedule> listSchedule,Meeting m){
         List<Invitation> getImportantParticipant = this.ic.listInvitation(m.getId(), m.getImportant_participants());
         for(Invitation inv : getImportantParticipant){
             if (inv.getStatus() == InvitationStatus.rejected || inv.getStatus() == InvitationStatus.waiting) {
@@ -117,7 +117,7 @@ public class SchedulerController {
         return listSchedule;
     }
     
-    private List<Schedule> updateAcceptParticipant(List<Schedule> listSchedule,Meeting m){
+    public List<Schedule> updateAcceptParticipant(List<Schedule> listSchedule,Meeting m){
         List<Schedule> tempList;
         
         List<Invitation> getParticipant = this.ic.listInvitation(m.getId(), m.getParticipants());
@@ -136,7 +136,7 @@ public class SchedulerController {
         return listSchedule;
     }
 
-    private List<Schedule> discardConflictedRange(List<Schedule> listSchedule,DateRange range) {
+    public List<Schedule> discardConflictedRange(List<Schedule> listSchedule,DateRange range) {
         
         List<DateRange> conflicted_meeting_time;
         //buang yg bentrok

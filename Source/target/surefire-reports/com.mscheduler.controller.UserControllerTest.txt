@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mscheduler.controller.UserControllerTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 0.64 sec <<< FAILURE!
-testGetUserByEmail(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.125 sec  <<< FAILURE!
+Tests run: 15, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 1.25 sec <<< FAILURE!
+testGetUserByEmail(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.172 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<com.mscheduler.model.User@52aa2946> but was:<com.mscheduler.model.User@4de5031f>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -42,7 +42,7 @@ java.lang.AssertionError: expected:<com.mscheduler.model.User@52aa2946> but was:
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testLoadUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< FAILURE!
+testLoadUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.016 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<[]> but was:<[com.mscheduler.model.User@45f45fa1, com.mscheduler.model.User@4c6e276e, com.mscheduler.model.User@534df152, com.mscheduler.model.User@52e677af, com.mscheduler.model.User@35083305, com.mscheduler.model.User@8e0379d, com.mscheduler.model.User@341b80b2, com.mscheduler.model.User@55a1c291, com.mscheduler.model.User@2145433b, com.mscheduler.model.User@2890c451, com.mscheduler.model.User@40e6dfe1, com.mscheduler.model.User@1b083826, com.mscheduler.model.User@105fece7, com.mscheduler.model.User@3ec300f1, com.mscheduler.model.User@482cd91f, com.mscheduler.model.User@123f1134, com.mscheduler.model.User@7d68ef40, com.mscheduler.model.User@5b0abc94, com.mscheduler.model.User@75c072cb, com.mscheduler.model.User@1f1c7bf6, com.mscheduler.model.User@25b485ba, com.mscheduler.model.User@2b546384, com.mscheduler.model.User@5d740a0f, com.mscheduler.model.User@214b199c, com.mscheduler.model.User@20d3d15a, com.mscheduler.model.User@2893de87, com.mscheduler.model.User@55ca8de8, com.mscheduler.model.User@2c34f934, com.mscheduler.model.User@12d3a4e9, com.mscheduler.model.User@240237d2]>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -82,7 +82,7 @@ java.lang.AssertionError: expected:<[]> but was:<[com.mscheduler.model.User@45f4
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testListUserAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.015 sec  <<< ERROR!
+testListUserAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.032 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: -10
 	at com.mscheduler.Utilities.getPage(Utilities.java:32)
 	at com.mscheduler.controller.UserController.listUserAll(UserController.java:109)
@@ -164,7 +164,7 @@ java.lang.AssertionError:
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testUserEditOne(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+testUserEditOne(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
   Unexpected method call User.getEmail():
     User.readUserOne(""): expected: 1, actual: 0

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="1" name="com.mscheduler.controller.MeetingControllerTest" time="0.859" errors="9" skipped="0">
+<testsuite tests="17" failures="1" name="com.mscheduler.controller.MeetingControllerTest" time="1.672" errors="9" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testEditMeeting" time="0.016">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testEditMeeting" time="0.031">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testEditMeeting(MeetingControllerTest.java:253)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -142,7 +142,7 @@
     <system-out>updateLastMeetingIndex
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastMeetingIndex" time="0.047">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastMeetingIndex" time="0.125">
     <failure message="expected:&lt;com.mscheduler.model.LastIndex@27c6e487&gt; but was:&lt;com.mscheduler.model.LastIndex@49070868&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.mscheduler.model.LastIndex@27c6e487&gt; but was:&lt;com.mscheduler.model.LastIndex@49070868&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -186,7 +186,7 @@
     <system-out>getLastMeetingIndex
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastInvitationIndex" time="0">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateLastInvitationIndex" time="0.016">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testUpdateLastInvitationIndex(MeetingControllerTest.java:369)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -226,8 +226,8 @@
     <system-out>updateLastInvitationIndex
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testDetailMeeting" time="0.109"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.047"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testDetailMeeting" time="0.219"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeetingStatus" time="0.156"/>
   <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetMeetingTitle" time="0">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testGetMeetingTitle(MeetingControllerTest.java:282)
@@ -268,7 +268,7 @@
     <system-out>getMeetingTitle
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCancelMeeting" time="0.031"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCancelMeeting" time="0"/>
   <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testSaveMeetings" time="0">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testSaveMeetings(MeetingControllerTest.java:311)
@@ -309,8 +309,8 @@
     <system-out>saveMeetings
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.031"/>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeeting" time="0.016">
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testRunScheduler" time="0.047"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testListMeeting" time="0.063">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.mscheduler.model.Meeting.toString(Meeting.java:55)
 	at java.lang.String.valueOf(String.java:2994)
@@ -359,7 +359,7 @@
     <system-out>listMeeting
 </system-out>
   </testcase>
-  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.062"/>
+  <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testCreateMeeting" time="0.046"/>
   <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testUpdateMeeting" time="0.016"/>
   <testcase classname="com.mscheduler.controller.MeetingControllerTest" name="testGetLastInvitationIndex" time="0">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
