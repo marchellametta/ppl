@@ -122,7 +122,7 @@ public class InvitationTest {
     public void testSetAvailability() {
         System.out.println("setAvailability");
         List<DateRange> availability = new ArrayList<DateRange>();
-        availability.add(new DateRange("01-01-2017 - 01-06-2017"));
+        availability.add(new DateRange("01/01/2017 - 01/06/2017"));
         Invitation instance = new Invitation();
         instance.setAvailability(availability);
         List<DateRange> result = instance.getAvailability();
@@ -139,8 +139,8 @@ public class InvitationTest {
     @Test
     public void testAddAvailability() {
         System.out.println("addAvailability");
-        DateRange newDateRange = new DateRange("02-06-2017 - 31-12-2017");
-        Invitation instance = new Invitation();
+        DateRange newDateRange = new DateRange("02/06/2017 - 31/12/2017");
+        Invitation instance = new Invitation(1, "aabc@mail.com");
         List<DateRange> expectedResult = instance.getAvailability();
         expectedResult.add(newDateRange);
         instance.addAvailability(newDateRange);
