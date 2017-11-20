@@ -1,10 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.mscheduler.controller.MeetingControllerTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 17, Failures: 2, Errors: 7, Skipped: 0, Time elapsed: 0.853 sec <<< FAILURE!
 testEditMeeting(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.183 sec  <<< ERROR!
+=======
+Tests run: 17, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 0.844 sec <<< FAILURE!
+testEditMeeting(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.016 sec  <<< ERROR!
+>>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
 java.lang.NullPointerException
-	at com.mscheduler.controller.MeetingController.editMeeting(MeetingController.java:95)
 	at com.mscheduler.controller.MeetingControllerTest.testEditMeeting(MeetingControllerTest.java:253)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -39,7 +43,11 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+<<<<<<< HEAD
 testUpdateLastMeetingIndex(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.003 sec  <<< ERROR!
+=======
+testUpdateLastMeetingIndex(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+>>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
 java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testUpdateLastMeetingIndex(MeetingControllerTest.java:340)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -75,8 +83,13 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+<<<<<<< HEAD
 testGetLastMeetingIndex(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.016 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<com.mscheduler.model.LastIndex@7d3a22a9> but was:<com.mscheduler.model.LastIndex@1d082e88>
+=======
+testGetLastMeetingIndex(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.mscheduler.model.LastIndex@27c6e487> but was:<com.mscheduler.model.LastIndex@49070868>
+>>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -115,7 +128,11 @@ java.lang.AssertionError: expected:<com.mscheduler.model.LastIndex@7d3a22a9> but
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+<<<<<<< HEAD
 testUpdateLastInvitationIndex(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+=======
+testUpdateLastInvitationIndex(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+>>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
 java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testUpdateLastInvitationIndex(MeetingControllerTest.java:369)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -151,7 +168,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testGetMeetingTitle(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.002 sec  <<< ERROR!
+testGetMeetingTitle(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testGetMeetingTitle(MeetingControllerTest.java:282)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -187,7 +204,11 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+<<<<<<< HEAD
 testSaveMeetings(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.007 sec  <<< ERROR!
+=======
+testSaveMeetings(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+>>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
 java.lang.NullPointerException
 	at com.mscheduler.controller.MeetingControllerTest.testSaveMeetings(MeetingControllerTest.java:311)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -223,7 +244,11 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+<<<<<<< HEAD
 testListMeeting(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.068 sec  <<< ERROR!
+=======
+testListMeeting(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.016 sec  <<< ERROR!
+>>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
 java.lang.NullPointerException
 	at com.mscheduler.model.Meeting.toString(Meeting.java:55)
 	at java.lang.String.valueOf(String.java:2994)
@@ -268,6 +293,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+<<<<<<< HEAD
 testListMeetingView(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0.131 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<[com.mscheduler.model.ListMeetingViewModel@163e4e87, com.mscheduler.model.ListMeetingViewModel@56de5251, com.mscheduler.model.ListMeetingViewModel@419c5f1a, com.mscheduler.model.ListMeetingViewModel@12b0404f, com.mscheduler.model.ListMeetingViewModel@769e7ee8, com.mscheduler.model.ListMeetingViewModel@5276e6b0, com.mscheduler.model.ListMeetingViewModel@71b1176b, com.mscheduler.model.ListMeetingViewModel@6193932a, com.mscheduler.model.ListMeetingViewModel@647fd8ce, com.mscheduler.model.ListMeetingViewModel@159f197, com.mscheduler.model.ListMeetingViewModel@78aab498, com.mscheduler.model.ListMeetingViewModel@5dd6264, com.mscheduler.model.ListMeetingViewModel@1ffe63b9, com.mscheduler.model.ListMeetingViewModel@51e5fc98, com.mscheduler.model.ListMeetingViewModel@7c469c48, com.mscheduler.model.ListMeetingViewModel@12e61fe6, com.mscheduler.model.ListMeetingViewModel@7ee955a8, com.mscheduler.model.ListMeetingViewModel@1677d1, com.mscheduler.model.ListMeetingViewModel@48fa0f47, com.mscheduler.model.ListMeetingViewModel@6ac13091, com.mscheduler.model.ListMeetingViewModel@5e316c74, com.mscheduler.model.ListMeetingViewModel@6d2a209c, com.mscheduler.model.ListMeetingViewModel@75329a49, com.mscheduler.model.ListMeetingViewModel@161479c6, com.mscheduler.model.ListMeetingViewModel@4313f5bc, com.mscheduler.model.ListMeetingViewModel@7f010382, com.mscheduler.model.ListMeetingViewModel@1e802ef9]> but was:<[com.mscheduler.model.ListMeetingViewModel@2b6faea6, com.mscheduler.model.ListMeetingViewModel@778d1062, com.mscheduler.model.ListMeetingViewModel@670002, com.mscheduler.model.ListMeetingViewModel@1f0f1111, com.mscheduler.model.ListMeetingViewModel@49c386c8, com.mscheduler.model.ListMeetingViewModel@56528192, com.mscheduler.model.ListMeetingViewModel@6e0dec4a, com.mscheduler.model.ListMeetingViewModel@96def03, com.mscheduler.model.ListMeetingViewModel@5ccddd20, com.mscheduler.model.ListMeetingViewModel@1ed1993a, com.mscheduler.model.ListMeetingViewModel@1f3f4916, com.mscheduler.model.ListMeetingViewModel@794cb805, com.mscheduler.model.ListMeetingViewModel@4b5a5ed1, com.mscheduler.model.ListMeetingViewModel@59d016c9, com.mscheduler.model.ListMeetingViewModel@3cc2931c, com.mscheduler.model.ListMeetingViewModel@20d28811, com.mscheduler.model.ListMeetingViewModel@3967e60c, com.mscheduler.model.ListMeetingViewModel@60d8c9b7, com.mscheduler.model.ListMeetingViewModel@48aaecc3, com.mscheduler.model.ListMeetingViewModel@7c0c77c7, com.mscheduler.model.ListMeetingViewModel@7adda9cc, com.mscheduler.model.ListMeetingViewModel@5cee5251, com.mscheduler.model.ListMeetingViewModel@433d61fb, com.mscheduler.model.ListMeetingViewModel@5c909414, com.mscheduler.model.ListMeetingViewModel@4b14c583, com.mscheduler.model.ListMeetingViewModel@65466a6a, com.mscheduler.model.ListMeetingViewModel@4ddced80]>
 	at org.junit.Assert.fail(Assert.java:88)
@@ -275,6 +301,47 @@ java.lang.AssertionError: expected:<[com.mscheduler.model.ListMeetingViewModel@1
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at com.mscheduler.controller.MeetingControllerTest.testListMeetingView(MeetingControllerTest.java:268)
+=======
+testGetLastInvitationIndex(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.mscheduler.controller.MeetingControllerTest.testGetLastInvitationIndex(MeetingControllerTest.java:354)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+testListMeetingView(com.mscheduler.controller.MeetingControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.mscheduler.controller.MeetingControllerTest.testListMeetingView(MeetingControllerTest.java:267)
+>>>>>>> 8ea7d45d78ae4757665b40cfce0b7e5c16fe9d88
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -248,7 +248,7 @@ public class MeetingControllerTest extends EasyMockSupport{
     public void testEditMeeting() {
         System.out.println("editMeeting");
         Meeting m = null;
-        MeetingController instance = new MeetingController(ic);
+        MeetingController instance = null;
         boolean expResult = true;
         boolean result = instance.editMeeting(m);
         assertEquals(expResult, result);
@@ -262,8 +262,8 @@ public class MeetingControllerTest extends EasyMockSupport{
     @Test
     public void testListMeetingView() {
         System.out.println("listMeetingView");
-        MeetingController instance = new MeetingController(ic);
-        List<ListMeetingViewModel> expResult = instance.listMeetingView();
+        MeetingController instance = null;
+        List<ListMeetingViewModel> expResult = null;
         List<ListMeetingViewModel> result = instance.listMeetingView();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -349,7 +349,7 @@ public class MeetingControllerTest extends EasyMockSupport{
     @Test
     public void testGetLastInvitationIndex() {
         System.out.println("getLastInvitationIndex");
-        MeetingController instance = new MeetingController(ic);
+        MeetingController instance = null;
         LastIndex expResult = null;
         LastIndex result = instance.getLastInvitationIndex();
         assertEquals(expResult, result);
