@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.mscheduler.controller.UserControllerTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 3, Errors: 9, Skipped: 0, Time elapsed: 0.601 sec <<< FAILURE!
-testGetUserByEmail(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.125 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<com.mscheduler.model.User@2357d90a> but was:<com.mscheduler.model.User@6328d34a>
+Tests run: 15, Failures: 3, Errors: 9, Skipped: 0, Time elapsed: 0.377 sec <<< FAILURE!
+testGetUserByEmail(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.mscheduler.model.User@6af93788> but was:<com.mscheduler.model.User@ef9296d>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.mscheduler.controller.UserControllerTest.testGetUserByEmail(UserControllerTest.java:256)
+	at com.mscheduler.controller.UserControllerTest.testGetUserByEmail(UserControllerTest.java:271)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -42,13 +42,13 @@ java.lang.AssertionError: expected:<com.mscheduler.model.User@2357d90a> but was:
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testLoadUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<[]> but was:<[com.mscheduler.model.User@667a738, com.mscheduler.model.User@36f0f1be, com.mscheduler.model.User@157632c9, com.mscheduler.model.User@6ee12bac, com.mscheduler.model.User@55040f2f, com.mscheduler.model.User@64c87930, com.mscheduler.model.User@400cff1a, com.mscheduler.model.User@275710fc, com.mscheduler.model.User@525f1e4e, com.mscheduler.model.User@75f9eccc, com.mscheduler.model.User@52aa2946, com.mscheduler.model.User@4de5031f, com.mscheduler.model.User@67e2d983, com.mscheduler.model.User@5d47c63f, com.mscheduler.model.User@5ea434c8, com.mscheduler.model.User@3bbc39f8, com.mscheduler.model.User@4ae3c1cd, com.mscheduler.model.User@29f69090, com.mscheduler.model.User@568bf312, com.mscheduler.model.User@ca263c2, com.mscheduler.model.User@589b3632, com.mscheduler.model.User@45f45fa1, com.mscheduler.model.User@4c6e276e, com.mscheduler.model.User@534df152, com.mscheduler.model.User@52e677af, com.mscheduler.model.User@35083305, com.mscheduler.model.User@8e0379d, com.mscheduler.model.User@341b80b2, com.mscheduler.model.User@55a1c291, com.mscheduler.model.User@2145433b]>
+testLoadUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[]> but was:<[com.mscheduler.model.User@7880cdf3, com.mscheduler.model.User@5be6e01c, com.mscheduler.model.User@1c93084c, com.mscheduler.model.User@6ef888f6, com.mscheduler.model.User@10e92f8f, com.mscheduler.model.User@7ce3cb8e, com.mscheduler.model.User@78b66d36, com.mscheduler.model.User@5223e5ee, com.mscheduler.model.User@bef2d72, com.mscheduler.model.User@69b2283a, com.mscheduler.model.User@22a637e7, com.mscheduler.model.User@6fe7aac8, com.mscheduler.model.User@1d119efb, com.mscheduler.model.User@659a969b, com.mscheduler.model.User@76908cc0, com.mscheduler.model.User@2473d930, com.mscheduler.model.User@35047d03, com.mscheduler.model.User@49b0b76, com.mscheduler.model.User@769f71a9, com.mscheduler.model.User@4c9f8c13, com.mscheduler.model.User@5ae50ce6, com.mscheduler.model.User@6f96c77, com.mscheduler.model.User@be64738, com.mscheduler.model.User@3ba9ad43, com.mscheduler.model.User@49d904ec, com.mscheduler.model.User@48e4374, com.mscheduler.model.User@3d680b5a, com.mscheduler.model.User@4b5d6a01, com.mscheduler.model.User@4a22f9e2, com.mscheduler.model.User@3c419631]>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.mscheduler.controller.UserControllerTest.testLoadUser(UserControllerTest.java:66)
+	at com.mscheduler.controller.UserControllerTest.testLoadUser(UserControllerTest.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,7 +82,7 @@ java.lang.AssertionError: expected:<[]> but was:<[com.mscheduler.model.User@667a
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testAddUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+testAddUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.IllegalStateException: missing behavior definition for the preceding method call:
 User.saving()
 Usage is: expect(a.foo()).andXXX()
@@ -91,7 +91,7 @@ Usage is: expect(a.foo()).andXXX()
 	at org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept(ClassProxyFactory.java:95)
 	at com.mscheduler.model.User$$EnhancerByCGLIB$$7ffe1849.saving(<generated>)
 	at com.mscheduler.controller.UserController.addUser(UserController.java:121)
-	at com.mscheduler.controller.UserControllerTest.testAddUser(UserControllerTest.java:124)
+	at com.mscheduler.controller.UserControllerTest.testAddUser(UserControllerTest.java:139)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,13 +125,13 @@ Usage is: expect(a.foo()).andXXX()
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testCheckLogin(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+testCheckLogin(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.IllegalStateException: missing behavior definition for the preceding method call:
 User.checkLoginDb(EasyMock for class com.mscheduler.model.User)
 Usage is: expect(a.foo()).andXXX()
 	at org.easymock.internal.MocksControl.replay(MocksControl.java:244)
 	at org.easymock.EasyMock.replay(EasyMock.java:1939)
-	at com.mscheduler.controller.UserControllerTest.testCheckLogin(UserControllerTest.java:141)
+	at com.mscheduler.controller.UserControllerTest.testCheckLogin(UserControllerTest.java:156)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -165,13 +165,13 @@ Usage is: expect(a.foo()).andXXX()
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testLogin(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.015 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<com.mscheduler.model.User@240237d2> but was:<com.mscheduler.model.User@25a65b77>
+testLogin(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<com.mscheduler.model.User@cd3fee8> but was:<com.mscheduler.model.User@3e2e18f2>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.mscheduler.controller.UserControllerTest.testLogin(UserControllerTest.java:241)
+	at com.mscheduler.controller.UserControllerTest.testLogin(UserControllerTest.java:256)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -205,11 +205,11 @@ java.lang.AssertionError: expected:<com.mscheduler.model.User@240237d2> but was:
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testListUserAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.016 sec  <<< ERROR!
+testListUserAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.071 sec  <<< ERROR!
 java.lang.ArrayIndexOutOfBoundsException: -10
 	at com.mscheduler.Utilities.getPage(Utilities.java:32)
 	at com.mscheduler.controller.UserController.listUserAll(UserController.java:109)
-	at com.mscheduler.controller.UserControllerTest.testListUserAll(UserControllerTest.java:107)
+	at com.mscheduler.controller.UserControllerTest.testListUserAll(UserControllerTest.java:122)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -243,9 +243,9 @@ java.lang.ArrayIndexOutOfBoundsException: -10
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testDelUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+testDelUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.011 sec  <<< ERROR!
 java.lang.NullPointerException
-	at com.mscheduler.controller.UserControllerTest.testDelUser(UserControllerTest.java:224)
+	at com.mscheduler.controller.UserControllerTest.testDelUser(UserControllerTest.java:239)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -279,9 +279,9 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testUserEditAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+testUserEditAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
-	at com.mscheduler.controller.UserControllerTest.testUserEditAll(UserControllerTest.java:177)
+	at com.mscheduler.controller.UserControllerTest.testUserEditAll(UserControllerTest.java:192)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -317,7 +317,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
 testUserEditOne(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException
-	at com.mscheduler.controller.UserControllerTest.testUserEditOne(UserControllerTest.java:194)
+	at com.mscheduler.controller.UserControllerTest.testUserEditOne(UserControllerTest.java:209)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -351,9 +351,9 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testListUsersAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+testListUsersAll(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
-	at com.mscheduler.controller.UserControllerTest.testListUsersAll(UserControllerTest.java:93)
+	at com.mscheduler.controller.UserControllerTest.testListUsersAll(UserControllerTest.java:108)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -387,9 +387,9 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testIntEditUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+testIntEditUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException
-	at com.mscheduler.controller.UserControllerTest.testIntEditUser(UserControllerTest.java:209)
+	at com.mscheduler.controller.UserControllerTest.testIntEditUser(UserControllerTest.java:224)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -423,9 +423,9 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testListUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0 sec  <<< ERROR!
+testListUser(com.mscheduler.controller.UserControllerTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.NullPointerException
-	at com.mscheduler.controller.UserControllerTest.testListUser(UserControllerTest.java:79)
+	at com.mscheduler.controller.UserControllerTest.testListUser(UserControllerTest.java:94)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
