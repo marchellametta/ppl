@@ -52,16 +52,16 @@ public class UserControllerTest extends EasyMockSupport{
     public void tearDown() {
     }
 
-    /**
-     * Test of getInstance method, of class UserController.
-     */
-    @Test
-    public void testGetInstance() {
-        System.out.println("getInstance");
-        UserController expResult = UserController.getInstance();
-        UserController result = UserController.getInstance();
-        assertEquals(expResult, result);
-    }
+//    /**
+//     * Test of getInstance method, of class UserController.
+//     */
+//    @Test
+//    public void testGetInstance() {
+//        System.out.println("getInstance");
+//        UserController expResult = UserController.getInstance();
+//        UserController result = UserController.getInstance();
+//        assertEquals(expResult, result);
+//    }
 
     /**
      * Test of loadUser method, of class UserController.
@@ -128,7 +128,7 @@ public class UserControllerTest extends EasyMockSupport{
     public void testAddUser() {
         System.out.println("addUser");
         UserController instance = new UserController();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.addUser(usr);
         assertEquals(expResult, result);
     }
@@ -236,7 +236,7 @@ public class UserControllerTest extends EasyMockSupport{
     @Test
     public void testLogin() {
         System.out.println("login");
-        String email = "clara@mail.com";
+        String email = "clara@gmail.com";
         String password = "";
         UserController instance = new UserController();
         User result = instance.login(email, password);
@@ -252,7 +252,7 @@ public class UserControllerTest extends EasyMockSupport{
     @Test
     public void testGetUserByEmail() {
         System.out.println("getUserByEmail");
-        String email = "clara@mail.com";
+        String email = "clara@gmail.com";
         UserController instance = new UserController();
         User expResult = instance.getUserByEmail(email);
         User result = instance.getUserByEmail(email);
@@ -267,7 +267,7 @@ public class UserControllerTest extends EasyMockSupport{
         System.out.println("existUser");
         String email = "clara@gmail.com";
         UserController instance = new UserController();
-        boolean expResult = instance.existUser(email);
+        boolean expResult = true;
         boolean result = instance.existUser(email);
         assertEquals(expResult, result);
     }

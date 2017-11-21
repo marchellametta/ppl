@@ -142,7 +142,7 @@ public class UserTest {
         System.out.println("BooleanReadUser");
         String input = "clara@gmail.com";
         User instance = new User();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.BooleanReadUser(input);
         assertEquals(expResult, result);
     }
@@ -156,7 +156,7 @@ public class UserTest {
         String email = "clara@gmail.com";
         String input = "asdasdasd";
         User instance = new User();
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.BooleanReadPass(email, input);
         assertEquals(expResult, result);
     }
@@ -168,7 +168,7 @@ public class UserTest {
     public void testCheckLoginDb() {
         System.out.println("checkLoginDb");
         User instance = new User();
-        String expResult = "0";
+        String expResult = "1";
         String result = instance.checkLoginDb(instance);
         assertEquals(expResult, result);
     }
