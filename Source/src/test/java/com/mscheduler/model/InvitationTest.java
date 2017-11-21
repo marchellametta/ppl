@@ -68,6 +68,24 @@ public class InvitationTest {
         }catch(Exception e){
             System.out.println("Tidak sesuai dengan ekspetasi");
         }
+        
+        meeting_id = 0;
+        instance.setMeeting_id(meeting_id);
+        result = instance.getMeeting_id();
+        try{
+            assertEquals(meeting_id, result);
+        }catch(Exception e){
+            System.out.println("Tidak sesuai dengan ekspetasi");
+        }
+        
+        meeting_id = -1;
+        instance.setMeeting_id(meeting_id);
+        result = instance.getMeeting_id();
+        try{
+            assertEquals(meeting_id, result);
+        }catch(Exception e){
+            System.out.println("Tidak sesuai dengan ekspetasi");
+        }
     }
 
 //    /**

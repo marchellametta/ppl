@@ -44,9 +44,17 @@ public class ScheduleTest {
     public void testGetDate() {
         System.out.println("getDate");
         Meeting meeting = new Meeting();
-        DateRange expResult = new DateRange("01/01/2017 - 01/02/2017");
+        DateRange expResult = new DateRange("01/01/2017 09 - 01/02/2017 11");
         Schedule instance = new Schedule(meeting,expResult);
         DateRange result = instance.getDate();
+        try{
+            assertEquals(expResult, result);
+        }catch(Exception e){
+            System.out.println("Tidak sesuai dengan ekspetasi");
+        }
+        expResult = new DateRange("01-Jan-2017 09- 01-Feb-2017 11");
+        instance = new Schedule(meeting,expResult);
+        result = instance.getDate();
         try{
             assertEquals(expResult, result);
         }catch(Exception e){
@@ -61,11 +69,20 @@ public class ScheduleTest {
     public void testSetDate() {
         System.out.println("setDate");
         Meeting meeting = new Meeting();
-        DateRange date = new DateRange("01/01/2017 - 01/02/2017");
+        DateRange date = new DateRange("01/01/2017 09 - 01/02/2017 11");
         Schedule instance = new Schedule(meeting,date);
-        DateRange expResult = new DateRange("01-01-2017 - 01-03-2017");
+        DateRange expResult = new DateRange("01/01/2017 09 - 01/02/2017 11");
         instance.setDate(expResult);
         DateRange result = instance.getDate();
+        try{
+            assertEquals(expResult, result);
+        }catch(Exception e){
+            System.out.println("Tidak sesuai dengan ekspetasi");
+        }
+        date = new DateRange("01-Jan-2017 09- 01-Feb-2017 11");
+        instance = new Schedule(meeting,date);
+        instance.setDate(expResult);
+        result = instance.getDate();
         try{
             assertEquals(expResult, result);
         }catch(Exception e){
