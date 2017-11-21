@@ -140,10 +140,20 @@ public class InvitationTest {
     public void testSetAvailability() {
         System.out.println("setAvailability");
         List<DateRange> availability = new ArrayList<DateRange>();
-        availability.add(new DateRange("01/01/2017 - 01/06/2017"));
+        availability.add(new DateRange("01/01/2017 09 - 01/06/2017 09"));
         Invitation instance = new Invitation();
         instance.setAvailability(availability);
         List<DateRange> result = instance.getAvailability();
+        try{
+            assertEquals(availability, result);
+        }catch(Exception e){
+            System.out.println("Tidak sesuai dengan ekspetasi");
+        }
+        
+        availability = new ArrayList<DateRange>();
+        availability.add(new DateRange("01/Jan/2017 09 - 01/Jun/2017 09"));
+        instance.setAvailability(availability);
+        result = instance.getAvailability();
         try{
             assertEquals(availability, result);
         }catch(Exception e){
@@ -157,12 +167,22 @@ public class InvitationTest {
     @Test
     public void testAddAvailability() {
         System.out.println("addAvailability");
-        DateRange newDateRange = new DateRange("02/06/2017 - 31/12/2017");
+        DateRange newDateRange = new DateRange("02/06/2017 09 - 31/12/2017 09");
         Invitation instance = new Invitation(1, "aabc@mail.com");
         List<DateRange> expectedResult = instance.getAvailability();
         expectedResult.add(newDateRange);
         instance.addAvailability(newDateRange);
         List<DateRange> result = instance.getAvailability();
+        // TODO review the generated test code and remove the default call to fail.
+        try{
+            assertEquals(expectedResult, result);
+        }catch(Exception e){
+            System.out.println("Tidak sesuai dengan ekspetasi");
+        }
+        DateRange newDateRange2 = new DateRange("02/06/2017 09 - 31/12/2017 09");
+        expectedResult.add(newDateRange);
+        instance.addAvailability(newDateRange);
+        result = instance.getAvailability();
         // TODO review the generated test code and remove the default call to fail.
         try{
             assertEquals(expectedResult, result);
